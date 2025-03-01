@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id">
+  <header>
+    <title>Lihkadeapmi - Lundui.fi</title>
+    <genre code="facta"/>
+    <author>
+      <unknown/>
+    </author>
+    <wordcount>176</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Kimberli Mäkäräinen" email="kimberli.makarainen@helsinki.fi"/>
+    <origFileName>http://www.lundui.fi/se/vanddardeamiabc/vanddardeapmijabiras/lihkadeapmi</origFileName>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Hyppää>"
+	"Hyppää" ? @X #1->0
+: 
+"<sisältöön>"
+	"sisältöön" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->3
+:\n
+
+"<Raba>"
+	"rahpat" <mv> V TV Imprt Sg2 <W:0.0> @FMV #1->0
+: 
+"<fálu>"
+	"fállu" N Sem/Dummytag Sg Acc <W:0.0> @<OBJ #2->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->1
+:\n
+
+"<Suomeksi>"
+	"Suomeksi" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<In>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #1->0
+: 
+"<English>"
+	"English" N Prop Sem/Obj Sg Nom <W:0.0> @<SUBJ #2->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->1
+:\n
+
+"<På>"
+	"På" ? @X #1->0
+: 
+"<svenska>"
+	"svenska" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->3
+:\n
+
+"<Anarâškielâ>"
+	"Anarâškielâ" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Vánddardeapmi>"
+	"vánddardeapmi" N Sem/Act Sg Nom <W:0.0> @X #1->0
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #2->1
+: 
+"<biras>"
+	"biras" N Sem/Plc Sg Nom <W:0.0> @X #3->0
+: 
+"<Dola>"
+	"dolla" N Sem/Substnc Sg Gen <W:0.0> @>N #4->5
+: 
+"<cahkkeheapmi>"
+	"cahkkehit" Ex/V TV Gram/3syll Der/NomAct N Sg Nom <W:0.0> @X #5->0
+:\n
+"<Gohtten>"
+	"gohttet" V IV PrfPrc <W:0.0> @>N #6->7
+:\n
+"<Lihkadeapmi>"
+	"lihkadeapmi" N Sem/Act Sg Nom <W:0.0> @X #7->0
+:\n
+"<Ribahis>"
+	"ribat" N Sem/Build_Route Sg Loc <W:0.0> @HNOUN #8->7
+: 
+"<vánddardeapmi>"
+	"vánddardeapmi" N Sem/Act Sg Nom <W:0.0> @X #9->0
+:\n
+:  
+"<¶>"
+	"¶" CLB <W:0.0> #10->10
+:\n
+
+"<Dola>"
+	"dolla" N Sem/Substnc Sg Gen <W:0.0> @>N #1->2
+: 
+"<cahkkeheapmi>"
+	"cahkkehit" Ex/V TV Gram/3syll Der/NomAct N Sg Nom <W:0.0> @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->2
+:\n
+
+"<Gohtten>"
+	"gohttet" Ex/V IV Der/NomAct N Sem/Act Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+"<Lihkadeapmi>"
+	"lihkadeapmi" N Sem/Act Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+"<Ribahis>"
+	"ribat" N Sem/Build_Route Sg Loc <W:0.0> @ADVL> #1->2
+: 
+"<vánddardeapmi>"
+	"vánddardeapmi" N Sem/Act Sg Nom <W:0.0> @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->2
+:\n
+
+"<Luossaluhtehas>"
+	"luossaluhtehas" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+"<Liŋkkat>"
+	"liŋka" N Sem/Dummytag Pl Nom <W:0.0> @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+"<Lihkat>"
+	"lihkkat" <mv> V IV Ind Prs Sg2 <W:0.0> @FMV #1->0
+: 
+"<nu ahte>"
+	"nu ahte" CS <W:0.0> @CVP #2->3
+: 
+"<it>"
+	"ii" <aux> V IV Neg Ind Sg2 <W:0.0> @FS-<ADVL #3->1
+: 
+"<vuhtto>"
+	"vuhttot" <mv> V IV Ind Prs ConNeg <W:0.0> @FS-IMV #4->3
+: 
+"<itge>"
+	"ii" <aux> V IV Neg Ind Sg2 Foc/Neg-ge <W:0.0> @FAUX #5->1
+: 
+"<muosehuhte>"
+	"muosehuhttit" <mv> V TV Ind Prs ConNeg <W:0.0> @IMV #6->5
+: 
+"<elliid>"
+	"ealli" N Sem/Ani NomAg Pl Acc <W:0.0> @<OBJ #7->6
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #8->1
+:\n
+
+"<Bargga>"
+	"bargat" <mv> V TV Imprt Sg2 <W:0.0> @FMV #1->0
+: 
+"<ná>"
+	"ná" Adv <W:0.0> @<ADVL #2->1
+"<!>"
+	"!" CLB <W:0.0> #3->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Go>"
+	"go" CS <W:0.0> @CVP #1->2
+: 
+"<jeagadat>"
+	"jeagadit" <mv> V TV Gram/3syll Ind Prs Pl1 <W:0.0> @FMV #2->0
+: 
+"<dan>"
+	"dat" Pron Dem Sg Acc <W:0.0> @<OBJ #3->2
+: 
+"<mii>"
+	"mii" Pron Rel Sg Nom <W:0.0> @SUBJ> #4->10
+: 
+"<guovllu>"
+	"guovlu" N Sem/Plc Sg Gen <W:0.0> @>N #5->6
+: 
+"<njuolggadusain>"
+	"njuolggadus" N Sem/Rule Pl Loc <W:0.0> @X #6->0
+: 
+"<dehe>"
+	"dehe" CC <W:0.0> @CVP #7->2
+: 
+"<juohkeolbmovuoigatvuođaid>"
+	"vuoigatvuohta" N Sem/Rule Pl Gen <W:0.0> <cohort-with-dynamic-compound> @>N #8->9
+		"juohkeolmmoš" N Sem/Hum Cmp/SgGen Cmp <W:0.0> #8->9
+: 
+"<geatnegasvuođain>"
+	"geatnegasvuohta" N Sem/Rule Sg Com <W:0.0> @ADVL> #9->10
+: 
+"<daddjo>"
+	"dadjat" Ex/V Ex/TV Der/PassS <mv> V IV Ind Prs Sg3 <W:0.0> @FS-N< #10->3
+"<,>"
+	"," CLB <W:0.0> #11->7
+: 
+"<de>"
+	"de" Adv <W:0.0> @ADVL> #12->13
+: 
+"<dagahat>"
+	"dagahit" <mv> V TV Gram/3syll Ind Prs Pl1 <W:0.0> @FS-VFIN< #13->10
+	"dagahit" <mv> V TV Gram/3syll Ind Prs Sg2 <W:0.0> @FS-VFIN< #13->10
+: 
+"<áruid>"
+	"árru" N Sem/Dummytag Pl Acc <W:0.0> @<OBJ #14->13
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #15->14
+: 
+"<heađuštusaid>"
+	"heađuštus" N Sem/Prod Pl Acc <W:0.0> @<OBJ #16->14
+: 
+"<nu>"
+	"nu" Adv <W:0.0> @>ADVL #17->18
+: 
+"<unnán>"
+	"unnán" Adv <W:0.0> @<ADVL #18->13
+: 
+"<go>"
+	"go" CS <W:0.0> @CNP #19->18
+: 
+"<vejolaš>"
+	"vejolaš" A Sem/Dummytag Sg Nom <W:0.0> @COMP-CS< #20->19
+"<.>"
+	"." CLB <W:0.0> #21->2
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Ovdamearkkadihte>"
+	"ovdamearkka dihte" Err/MissingSpace Adv <W:0.0> @ADVL> #1->2
+: 
+"<giikanastte>"
+	"giikanastit" <mv> V TV Imprt Sg2 <W:0.0> @FMV #2->0
+: 
+"<elliid>"
+	"ealli" N Sem/Ani NomAg Pl Acc <W:0.0> @<OBJ #3->2
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #4->3
+: 
+"<daid>"
+	"dat" Pron Dem Pl Acc <W:0.0> @>N #5->6
+: 
+"<čivggaid>"
+	"čivga" N Sem/Ani_Hum Pl Acc <W:0.0> @<OBJ #6->3
+: 
+"<guhkkin>"
+	"guhkkin" Adv Sem/Plc <W:0.0> @<ADVL #7->2
+"<,>"
+	"," CLB <W:0.0> #8->9
+: 
+"<vai>"
+	"vai" CS <W:0.0> @CVP #9->11
+: 
+"<dat>"
+	"dat" Pron Dem Pl Nom <W:0.0> @SUBJ> #10->11
+: 
+"<eai>"
+	"ii" <aux> V IV Neg Ind Pl3 <W:0.0> @FS-<ADVL #11->2
+: 
+"<muosehuva>"
+	"muosehuvvat" <mv> V IV Ind Prs ConNeg <W:0.0> @FS-IMV #12->11
+"<.>"
+	"." CLB <W:0.0> #13->2
+: 
+
+"<Divtte>"
+	"diktit" <mv> V TV Imprt Sg2 <W:0.0> @FMV #1->0
+: 
+"<gazzalottiid>"
+	"loddi" N Sem/Ani Pl Gen <W:0.0> <cohort-with-dynamic-compound> @>N #2->3
+		"gazza" N Sem/Body Cmp/SgNom Cmp <W:0.0> #2->3
+: 
+"<bessenmuoraid>"
+	"muorra" N Sem/Mat_Plant Pl Acc <W:0.0> <cohort-with-dynamic-compound> @<OBJ #3->1
+		"bessen" N Sem/Act Cmp/SgNom Cmp <W:0.0> #3->1
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #4->3
+: 
+"<lottiid>"
+	"loddi" N Sem/Ani Pl Gen <W:0.0> @>N #5->6
+: 
+"<orrunsajiid>"
+	"sadji" N Sem/Plc_Pos Pl Acc <W:0.0> <cohort-with-dynamic-compound> @<OBJ #6->3
+		"orrun" N Sem/Act Cmp/SgNom Cmp <W:0.0> #6->3
+: 
+"<orrut>"
+	"orrut" <mv> V IV Inf <W:0.0> @IMV #7->1
+: 
+"<ráfis>"
+	"ráfi" N Sem/State Sg Loc <W:0.0> @<ADVL #8->7
+"<.>"
+	"." CLB <W:0.0> #9->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Geavat>"
+	"geavvat" <mv> V IV Ind Prs Sg2 <W:0.0> @FMV #1->0
+: 
+"<dihkkáduvvon>"
+	"dihkkádit" Ex/V Ex/TV Gram/3syll Der/PassL V IV PrfPrc <W:0.0> @>N #2->3
+: 
+"<johtolagaid>"
+	"johtolat" N Sem/Act_Route Pl Gen <W:0.0> @<ADVL #3->1
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #4->3
+: 
+"<bálgáid>"
+	"bálggis" N Sem/Route Pl Acc <W:0.0> @<OBJ #5->1
+"<,>"
+	"," CLB <W:0.0> #6->7
+: 
+"<vai>"
+	"vai" CS <W:0.0> @CVP #7->9
+: 
+"<eatnamat>"
+	"eana" N Sem/Plc Pl Nom <W:0.0> @SUBJ> #8->9
+: 
+"<eai>"
+	"ii" <aux> V IV Neg Ind Pl3 <W:0.0> @FS-<ADVL #9->1
+: 
+"<guorbba>"
+	"guorbat" <mv> V IV Ind Prs ConNeg <W:0.0> @FS-IMV #10->9
+: 
+"<dušši>"
+	"dušši" N Sem/Dummytag Sg Gen <W:0.0> @>P #11->12
+: 
+"<dihte>"
+	"dihte" Po <W:0.0> @<ADVL #12->10
+"<.>"
+	"." CLB <W:0.0> #13->1
+: 
+
+"<Ale>"
+	"ii" <aux> V IV Neg Imprt Sg2 <W:0.0> @FAUX #1->0
+: 
+"<njulge>"
+	"njulget" <mv> V TV Imprt ConNeg <W:0.0> @IMV #2->1
+: 
+"<dehe>"
+	"dehe" CC <W:0.0> @CVP #3->1
+: 
+"<vácce>"
+	"vázzit" V IV Ind Prs ConNeg <W:0.0> @X #4->0
+: 
+"<bálgá>"
+	"bálggis" N Sem/Route Sg Gen <W:0.0> @>P #5->6
+: 
+"<guoras>"
+	"guoras" Po <W:0.0> @<ADVL #6->2
+"<,>"
+	"," CLB <W:0.0> #7->8
+: 
+"<vaikko>"
+	"vaikko" CS <W:0.0> @CVP #8->10
+: 
+"<bálggis>"
+	"bálggis" N Sem/Route Sg Nom <W:0.0> @SUBJ> #9->10
+: 
+"<livččiinai>"
+	"leat" <aux> V IV Cond Prs Sg3 Foc/naj <W:0.0> @FS-<ADVL #10->2
+: 
+"<gollan>"
+	"gollat" <mv> V IV PrfPrc <W:0.0> @FS-IMV #11->10
+: 
+"<váttisin>"
+	"váttis" A Sem/Dummytag Ess <W:0.0> @<SPRED #12->11
+: 
+"<johtit>"
+	"johtit" V IV Inf <W:0.0> @A< #13->12
+"<,>"
+	"," CLB <W:0.0> #14->8
+: 
+"<daningo>"
+	"daningo" CS <W:0.0> @CVP #15->18
+: 
+"<muđuid>"
+	"muđuid" Adv <W:0.0> @ADVL> #16->18
+: 
+"<bálggis>"
+	"bálggis" N Sem/Route Sg Nom <W:0.0> @SUBJ> #17->18
+: 
+"<govdu>"
+	"govdut" <mv> V IV Ind Prs Sg3 <W:0.0> @FS-<ADVL #18->11
+: 
+"<dušši>"
+	"dušši" N Sem/Dummytag Sg Gen <W:0.0> @>P #19->20
+: 
+"<dihte>"
+	"dihte" Po <W:0.0> @<ADVL #20->18
+"<.>"
+	"." CLB <W:0.0> #21->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Leage>"
+	"leat" <mv> V IV Imprt Sg2 <W:0.0> @FMV #1->0
+: 
+"<earenoamáš>"
+	"earenoamáš" Adv <W:0.0> @<ADVL #2->1
+: 
+"<várrugas>"
+	"várrugas" A Sem/Hum Attr <W:0.0> @>N #3->4
+: 
+"<bávtte>"
+	"bákti" N Sem/Plc Sg Gen Allegro <W:0.0> @>P #4->5
+: 
+"<nalde>"
+	"nalde" Po <W:0.0> @<ADVL #5->1
+"<,>"
+	"," CLB <W:0.0> #6->18
+: 
+"<daningo>"
+	"dat" Pron Dem Ess Qst <W:0.0> @X #7->0
+: 
+"<dan>"
+	"dat" Pron Dem Sg Gen <W:0.0> @>N #8->9
+: 
+"<šattut>"
+	"šaddu" N Sem/Plant Pl Nom <W:0.0> @SUBJ> #9->18
+: 
+"<dego>"
+	"dego" CS <W:0.0> @CNP #10->9
+: 
+"<maid>"
+	"maid" Adv <W:0.0> @<ADVL #11->1
+: 
+"<bohccojeahkálat>"
+	"bohccojeagil" N Sem/Plant Pl Nom <W:0.0> <cohort-with-dynamic-compound> @SUBJ> #12->18
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #13->12
+: 
+"<dynaguovllut>"
+	"guovlu" N Sem/Plc Pl Nom <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @SUBJ> #14->18
+		"dyna" N Sem/Dummytag Cmp/SgNom Cmp <W:0.0> #14->18
+: 
+"<sihke>"
+	"sihke" Adv <W:0.0> @<ADVL #15->1
+: 
+"<njuoska>"
+	"njuoskkas" A Sem/Dummytag Attr <W:0.0> @>N #16->17
+: 
+"<rabasjeakkit>"
+	"jeaggi" N Sem/Plc Pl Nom <W:0.0> @SUBJ> #17->18
+		"rabas" A Sem/Hum Cmp/Attr Cmp <W:0.0> #17->18
+: 
+"<girdet>"
+	"gierdat" <mv> V TV Ind Prs Pl3 <W:0.0> @FS-<ADVL #18->1
+	"girdit" <mv> V IV Ind Prs Pl3 <W:0.0> @FS-<ADVL #18->1
+: 
+"<gollama>"
+	"gollan" N Sem/Act Sg Acc <W:0.0> @<OBJ #19->18
+: 
+"<hui>"
+	"hui" Adv <W:0.0> @>A #20->21
+: 
+"<hejot>"
+	"headju" A Sem/Hum Pl Nom Err/Orth <W:0.0> @X #21->0
+"<.>"
+	"." CLB <W:0.0> #22->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Stuorit>"
+	"stuoris" Ex/A Der/Comp A Attr <W:0.0> @>N #1->2
+: 
+"<joavkkus>"
+	"joavku" N Sem/Group_Hum_Plc Sg Loc <W:0.0> @ADVL> #2->3
+: 
+"<gánnáha>"
+	"gánnáhit" <mv> V IV Gram/3syll Ind Prs Sg3 <W:0.0> @FMV #3->0
+: 
+"<juohkásit>"
+	"juohkásit" V IV Gram/3syll Inf <W:0.0> @<ADVL #4->3
+: 
+"<unnit>"
+	"unnit" Adv Gram/Comp <W:0.0> @-F<ADVL #5->4
+: 
+"<4>"
+	"4" Num Arab Sg Nom <W:0.0> @<SUBJ #6->3
+: 
+"<- 5>"
+	"- 5" Num Sem/ID <W:0.0> @>N #7->8
+: 
+"<olbmo>"
+	"olmmoš" N Sem/Hum Sg Gen <W:0.0> @Num< #8->6
+: 
+"<jovkkuide>"
+	"jovkkuide" ? @X #9->0
+"<,>"
+	"," CLB <W:0.0> #10->11
+: 
+"<vai>"
+	"vai" CS <W:0.0> @CVP #11->17
+: 
+"<eallit>"
+	"ealli" N Sem/Ani NomAg Pl Nom <W:0.0> @SUBJ> #12->17
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #13->12
+: 
+"<eará>"
+	"eará" Pron Indef Attr <W:0.0> @>N #14->15
+: 
+"<luonddus>"
+	"luondu" N Sem/Feat-psych_Plc Sg Loc <W:0.0> @ADVL> #15->18
+: 
+"<lihkadeaddjit>"
+	"lihkadeaddji" A Sem/Dummytag Pl Nom <W:0.0> @SUBJ> #16->17
+: 
+"<eai>"
+	"ii" <aux> V IV Neg Ind Pl3 <W:0.0> @FS-<ADVL #17->3
+: 
+"<muosehuva>"
+	"muosehuvvat" <mv> V IV Ind Prs ConNeg <W:0.0> @FS-IMV #18->17
+"<.>"
+	"." CLB <W:0.0> #19->3
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Manne>"
+	"mannat" <mv> V IV Ind Prt Pl3 <W:0.0> @FMV #1->0
+"<?>"
+	"?" CLB <W:0.0> #2->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Go>"
+	"go" CS <W:0.0> @CVP #1->2
+: 
+"<lihkadat>"
+	"lihkadit" <mv> V IV Gram/3syll Ind Prs Sg2 <W:0.0> @FS-ADVL> #2->8
+: 
+"<luonddus>"
+	"luondu" N Sem/Feat-psych_Plc Sg Loc <W:0.0> @<ADVL #3->2
+"<,>"
+	"," CLB <W:0.0> #4->1
+: 
+"<sáhtát>"
+	"sáhttit" <aux> V IV Ind Prs Sg2 <W:0.0> @FAUX #5->0
+: 
+"<dáhtokeahttá>"
+	"dáhttut" V TV VAbess <W:0.0> @<ADVL #6->2
+: 
+"<dehevásedin>"
+	"dehevásedin" ? @X #7->0
+: 
+"<dagahit>"
+	"dagahit" <mv> V TV Gram/3syll Inf <W:0.0> @IMV #8->5
+: 
+"<áruid>"
+	"árru" N Sem/Dummytag Pl Acc <W:0.0> @<OBJ #9->8
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #10->9
+: 
+"<heađuštusaid>"
+	"heađuštus" N Sem/Prod Pl Acc <W:0.0> @<OBJ #11->9
+"<.>"
+	"." CLB <W:0.0> #12->5
+: 
+
+"<Sáhtát>"
+	"sáhttit" <aux> V IV Ind Prs Sg2 <W:0.0> @FAUX #1->0
+: 
+"<ovddidit>"
+	"ovddidit" <mv> V TV Gram/3syll Inf <W:0.0> @IMV #2->1
+: 
+"<šattolašvuođa>"
+	"šattolašvuohta" N Sem/Feat Sg Acc <W:0.0> @<OBJ #3->2
+: 
+"<jaeananvuođu>"
+	"jaeananvuođu" ? @X #4->0
+: 
+"<gollama>"
+	"gollan" N Sem/Act Sg Gen <W:0.0> @>N #5->9
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #6->5
+: 
+"<erošuvnna>"
+	"erošuvdna" N Sem/Process Sg Gen <W:0.0> <cohort-with-dynamic-compound> @>N #7->8
+: 
+"<lassáneami>"
+	"lassáneapmi" N Sem/Act Sg Gen <W:0.0> @>N #8->5
+: 
+"<sihke>"
+	"sihke" Adv <W:0.0> @<ADVL #9->2
+: 
+"<luonddu>"
+	"luondu" N Sem/Feat-psych_Plc Sg Gen <W:0.0> @>N #10->11
+: 
+"<nuoskuma>"
+	"nuoskut" Ex/V IV Der/NomAct N Sg Acc <W:0.0> @<OBJ #11->2
+"<.>"
+	"." CLB <W:0.0> #12->1
+: 
+
+"<Maiddáieallit>"
+	"Maiddáieallit" ? @X #1->0
+: 
+"<sáhttet>"
+	"sáhttit" <aux> V IV Ind Prs Pl3 <W:0.0> @FAUX #2->0
+: 
+"<muosehuvvat>"
+	"muosehuvvat" <mv> V IV Inf <W:0.0> @IMV #3->2
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CVP #4->6
+: 
+"<daid>"
+	"dat" Pron Dem Pl Gen <W:0.0> @>N #5->6
+: 
+"<čivggat>"
+	"čivga" N Sem/Ani_Hum Pl Nom <W:0.0> @HNOUN #6->0
+: 
+"<duššat>"
+	"duššat" V IV Inf <W:0.0> @<ADVL #7->6
+"<.>"
+	"." CLB <W:0.0> #8->2
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<©>"
+	"©" N Symbol <W:0.0> @X #1->0
+: 
+"<Meahciráđđehus>"
+	"Meahciráđđehus" N Prop Sem/Org Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #2->1
+: 
+"<2015>"
+	"2015" Num Sem/Year Sg Nom <W:0.0> @HNOUN #3->2
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #4->4
+:\n
+
+"<Juoge>"
+	"juo" Adv Foc/Pos-ge <W:0.0> @ADVL> #1->3
+: 
+"<dán>"
+	"dát" Pron Dem Sg Acc <W:0.0> @>N #2->3
+: 
+"<dieđu>"
+	"diehtu" N Sem/Prod-cogn_Txt Sg Acc <W:0.0> @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #4->3
+:\n
+
+"<Raba>"
+	"rahpat" <mv> V TV Imprt Sg2 <W:0.0> @FMV #1->0
+: 
+"<fálu>"
+	"fállu" N Sem/Dummytag Sg Acc <W:0.0> @<OBJ #2->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->1
+:\n
+
+]]></dependency>
+  </body>
+</document>

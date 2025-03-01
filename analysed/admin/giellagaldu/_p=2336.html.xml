@@ -1,0 +1,864 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id">
+  <header>
+    <title>Mot skuolffit jietnadit? | Sámi Giellagáldu</title>
+    <genre code="admin"/>
+    <author>
+      <person firstname="Bigga-Helena" lastname="Magga" sex="f" born="" nationality="FI"/>
+    </author>
+    <year>2016</year>
+    <wordcount>197</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <license type="standard"/>
+    </availability>
+    <origFileName>http://www.giella.org/?p=2336</origFileName>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision: 150288 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA[:↓ 
+"<Skip>"
+	"Skip" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<Main>"
+	"Main" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #3->0
+: 
+"<Content>"
+	"Content" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #5->3
+:\n
+
+"<Mot>"
+	"mot" Adv Subqst <W:0.0> @ADVL> #1->3
+: 
+"<skuolffit>"
+	"skuolfi" N Sem/Ani Pl Nom <W:0.0> @SUBJ> #2->3
+: 
+"<jietnadit>"
+	"jietnadit" <mv> V TV Gram/3syll Ind Prs Pl3 <W:0.0> @FMV #3->0
+"<?>"
+	"?" CLB <W:0.0> #4->3
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<on>"
+	"on" Adv <W:0.0> @X #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->3
+:\n
+
+"<by>"
+	"by" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Bigga-Helena>"
+	"Helena" N Prop Sem/Fem Attr <W:0.0> <cohort-with-dynamic-compound> @>N #1->2
+		"Bigga" N Prop Sem/Fem Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #1->2
+	"Helena" N Prop Sem/Fem Attr <W:0.0> <cohort-with-dynamic-compound> @>N #1->2
+		"Biggá" N Prop Sem/Fem Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #1->2
+: 
+"<Magga>"
+	"Magga" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->2
+:\n
+
+"<Skulffiid>"
+	"skuolfi" N Sem/Ani Pl Gen <W:0.0> @>N #1->4
+: 
+"<dahjege>"
+	"dahjege" CC <W:0.0> @CNP #2->1
+: 
+"<idjalottiid>"
+	"loddi" N Sem/Ani Pl Gen <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @>N #3->1
+		"idja" N Sem/Time Cmp/SgNom Cmp <W:0.0> #3->1
+: 
+"<jietnadeapmái>"
+	"jietnadeapmi" N Sem/Act Sg Ill <W:0.0> @ADVL> #4->6
+: 
+"<ii>"
+	"ii" <aux> V IV Neg Ind Sg3 <W:0.0> @FAUX #5->0
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs ConNeg <W:0.0> @IMV #6->5
+: 
+"<okta>"
+	"okta" Num Sg Nom <W:0.0> @>N #7->8
+: 
+"<sátni>"
+	"sátni" N Sem/Cat Sg Nom <W:0.0> <ext> @<SUBJ #8->5
+"<,>"
+	"," CLB <W:0.0> #9->16
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #10->5
+: 
+"<skuolfeloddešlájas>"
+	"loddešládja" N Sem/Dummytag Sg Loc <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @<ADVL #11->10
+		"skuolfi" N Sem/Ani Cmp/SgNom Cmp <W:0.0> #11->10
+: 
+"<gitta>"
+	"gitta" Adv <W:0.0> @<ADVL #12->10
+"<,>"
+	"," CLB <W:0.0> #13->14
+: 
+"<mot>"
+	"mot" Adv Subqst <W:0.0> <cs> @ADVL> #14->16
+: 
+"<dat>"
+	"dat" Pron Dem Sg Nom <W:0.0> @SUBJ> #15->16
+: 
+"<jietnada>"
+	"jietnadit" <mv> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FS-<ADVL #16->10
+"<.>"
+	"." CLB <W:0.0> #17->5
+: 
+
+"<Skuolffit>"
+	"skuolfi" N Sem/Ani Pl Nom <W:0.0> @SUBJ> #1->0
+"<,>"
+	"," CLB <W:0.0> #2->3
+: 
+"<main>"
+	"mii" Pron Rel Pl Loc <W:0.0> <hab> @ADVL> #3->4
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FS-N< #4->1
+: 
+"<vuollegis>"
+	"vuollegaš" A Sem/Hum Attr <W:0.0> @>N #5->6
+: 
+"<jietna>"
+	"jietna" N Sem/Body-abstr_Prod-audio_Semcon Sg Nom <W:0.0> <ext> @<SUBJ #6->4
+: 
+"<nugo>"
+	"nugo" CS <W:0.0> @CNP #7->6
+: 
+"<lidnu>"
+	"lidnu" N Sem/Ani Sg Nom <W:0.0> @COMP-CS< #8->7
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CVP #9->4
+: 
+"<ránesskuolfi>"
+	"ránesskuolfi" N Sem/Ani Sg Nom <W:0.0> @COMP-CS< #10->7
+"<,>"
+	"," CLB <W:0.0> #11->10
+: 
+"<bumppistit>"
+	"bumppistit" <mv> V IV Gram/3syll Inf <W:0.0> @IMV #12->4
+"<.>"
+	"." CLB <W:0.0> #13->1
+: 
+
+"<Unna>"
+	"unni" A Sem/Dummytag Attr <W:0.0> @>N #1->2
+: 
+"<skuolffit>"
+	"skuolfi" N Sem/Ani Pl Nom <W:0.0> @SUBJ> #2->6
+: 
+"<nugo>"
+	"nugo" CS <W:0.0> @CVP #3->6
+: 
+"<bearalskuolfi>"
+	"bearalskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @SUBJ> #4->6
+"<,>"
+	"," CLB <W:0.0> #5->4
+: 
+"<njurggádit>"
+	"njurggádit" <mv> V TV Gram/3syll Ind Prs Pl3 <W:0.0> @FS-VFIN< #6->0
+"<.>"
+	"." CLB <W:0.0> #7->6
+: 
+
+"<Sáhpánskuolfi>"
+	"sáhpánskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @SUBJ> #1->5
+"<,>"
+	"," CLB <W:0.0> #2->1
+: 
+"<bigán>"
+	"bigán" N Sem/Hum Sg Nom <W:0.0> @SUBJ> #3->1
+: 
+"<njulgestaga>"
+	"njulgestaga" Adv <W:0.0> @ADVL> #4->5
+: 
+"<šnjirggáda>"
+	"šnjirggádit" <mv> V IV Gram/3syll Ind Prs Sg3 <W:0.0> @FMV #5->0
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CVP #6->5
+: 
+"<buljarda>"
+	"buljardit" <mv> V IV Gram/3syll Ind Prs Sg3 <W:0.0> @FMV #7->5
+"<.>"
+	"." CLB <W:0.0> #8->5
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Go>"
+	"go" CS <W:0.0> @CVP #1->2
+: 
+"<muitalat>"
+	"muitalit" <mv> V TV Gram/3syll Ind Prs Sg2 <W:0.0> @FS-ADVL> #2->7
+: 
+"<skuolffi>"
+	"skuolfi" N Sem/Ani Sg Acc <W:0.0> @<OBJ #3->2
+: 
+"<jietnadeamis>"
+	"jietnadeapmi" N Sem/Act Sg Loc <W:0.0> @<ADVL #4->2
+"<,>"
+	"," CLB <W:0.0> #5->1
+: 
+"<galggat>"
+	"galgat" <aux> V IV Ind Prs Sg2 <W:0.0> @FAUX #6->0
+: 
+"<diehtit>"
+	"diehtit" <mv> V TV Inf <W:0.0> @IMV #7->6
+: 
+"<mii>"
+	"mii" Pron Interr Sg Nom <W:0.0> @SUBJ> #8->10
+: 
+"<skulffiid>"
+	"skuolfi" N Sem/Ani Pl Acc <W:0.0> @Pron< #9->8
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FS-OBJ #10->7
+: 
+"<gažaldagas>"
+	"gažaldat" N Sem/Prod-ling Sg Loc <W:0.0> @<ADVL #11->10
+"<.>"
+	"." CLB <W:0.0> #12->6
+: 
+
+"<Dalle>"
+	"dalle" Adv Sem/Time <W:0.0> @ADVL> #1->3
+: 
+"<don>"
+	"don" Pron Pers Sg2 Nom <W:0.0> @SUBJ> #2->3
+: 
+"<dieđát>"
+	"diehtit" <mv> V TV Ind Prs Sg2 <W:0.0> @FMV #3->0
+: 
+"<makkár>"
+	"makkár" Pron Interr Attr <W:0.0> @>N #4->5
+: 
+"<sáni>"
+	"sátni" N Sem/Cat Sg Acc <W:0.0> @OBJ> #5->7
+: 
+"<jietnadeamis>"
+	"jietnadeapmi" N Sem/Act Sg Loc <W:0.0> @ADVL> #6->7
+: 
+"<geavahat>"
+	"geavahit" <mv> V TV Gram/3syll Ind Prs Sg2 <W:0.0> @FS-<ADVL #7->3
+"<.>"
+	"." CLB <W:0.0> #8->3
+: 
+
+"<Jos>"
+	"jos" CS <W:0.0> @CVP #1->3
+: 
+"<bággu>"
+	"bággu" N Sem/Rule Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #3->10
+: 
+"<ovttain>"
+	"okta" Num Sg Com <W:0.0> @>N #4->5
+: 
+"<sániin>"
+	"sátni" N Sem/Cat Sg Com <W:0.0> @<ADVL #5->3
+: 
+"<dadjat>"
+	"dadjat" <mv> V TV Inf <W:0.0> @IMV #6->3
+"<,>"
+	"," CLB <W:0.0> #7->6
+: 
+"<de>"
+	"de" Adv <W:0.0> @ADVL> #8->10
+: 
+"<skuolfi>"
+	"skuolfi" N Sem/Ani Sg Nom <W:0.0> @SUBJ> #9->10
+: 
+"<huiká>"
+	"huikit" <mv> V IV Ind Prs Sg3 <W:0.0> @FMVdic #10->0
+"<.>"
+	"." CLB <W:0.0> #11->10
+: 
+
+"<Huikit>"
+	"huikit" <mv> V IV Imprt Pl2 <W:0.0> @FMV #1->17
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #2->1
+: 
+"<huikkašit>"
+	"huikkašit" <mv> V TV Gram/3syll Ind Prs Pl1 <W:0.0> @FMV #3->1
+"<->"
+	"-" PUNCT <W:0.0> #4->5
+: 
+"<sániin>"
+	"sátni" N Sem/Cat Pl Loc <W:0.0> @ADVL> #5->6
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #6->1
+: 
+"<dat>"
+	"dat" Pron Dem Sg Nom <W:0.0> @>N #7->8
+: 
+"<earru>"
+	"earru" N Sem/Feat Sg Nom <W:0.0> <ext> @<SUBJ #8->6
+: 
+"<ahte>"
+	"ahte" CS <W:0.0> @CVP #9->10
+: 
+"<huikkašit>"
+	"huikkašit" V TV Gram/3syll Inf <W:0.0> @OBJ> #10->11
+: 
+"<gáibida>"
+	"gáibidit" <mv> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FS-OBJ #11->6
+: 
+"<vástideami>"
+	"vástidit" Ex/V TV Gram/3syll Der/NomAct N Sg Acc <W:0.0> @<OBJ #12->11
+"<,>"
+	"," CLB <W:0.0> #13->9
+: 
+"<dan>"
+	"dat" Pron Dem Sg Acc <W:0.0> @<OBJ #14->12
+: 
+"<ahte>"
+	"ahte" CS <W:0.0> @CVP #15->17
+: 
+"<soames>"
+	"soames" Pron Indef Sg Nom <W:0.0> @SUBJ> #16->17
+: 
+"<vástida>"
+	"vástidit" <mv> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FMVdic #17->0
+: 
+"<huikkašeapmái>"
+	"huikkašit" Ex/V TV Gram/3syll Der/NomAct N Sg Ill <W:0.0> @<ADVL #18->17
+"<.>"
+	"." CLB <W:0.0> #19->17
+: 
+
+"<Danin>"
+	"danin" Adv <W:0.0> @ADVL> #1->4
+: 
+"<dat>"
+	"dat" Pron Dem Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<ii>"
+	"ii" <aux> V IV Neg Ind Sg3 <W:0.0> @FAUX #3->0
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs ConNeg <W:0.0> @IMV #4->3
+: 
+"<buorre>"
+	"buorre" A Sem/Hum Sg Nom <W:0.0> @>N #5->6
+: 
+"<sátni>"
+	"sátni" N Sem/Cat Sg Nom <W:0.0> @<SPRED #6->4
+: 
+"<skuolffi>"
+	"skuolfi" N Sem/Ani Sg Gen <W:0.0> @>N #7->8
+: 
+"<jietnadeapmái>"
+	"jietnadeapmi" N Sem/Act Sg Ill <W:0.0> @<ADVL #8->4
+"<.>"
+	"." CLB <W:0.0> #9->3
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Govva>"
+	"govva" N Sem/Prod-vis Sg Nom <W:0.0> @HNOUN #1->0
+"<:>"
+	":" CLB <W:0.0> #2->1
+: 
+"<Bigga-Helena>"
+	"Helena" N Prop Sem/Fem Attr <W:0.0> <cohort-with-dynamic-compound> @>N #3->4
+		"Bigga" N Prop Sem/Fem Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #3->4
+	"Helena" N Prop Sem/Fem Attr <W:0.0> <cohort-with-dynamic-compound> @>N #3->4
+		"Biggá" N Prop Sem/Fem Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #3->4
+: 
+"<Magga>"
+	"Magga" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #4->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #5->1
+:\n
+
+"<Dá>"
+	"dá" Adv Sem/Time <W:0.0> @ADVL> #1->4
+: 
+"<muhtin>"
+	"muhtin" Pron Indef Attr <W:0.0> @>N #2->3
+: 
+"<skuolfelottiid>"
+	"loddi" N Sem/Ani Pl Gen <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @>N #3->4
+		"skuolfi" N Sem/Ani Cmp/SgNom Cmp <W:0.0> #3->4
+: 
+"<namat>"
+	"namma" N Sem/Cat Pl Nom <W:0.0> @HNOUN #4->0
+: 
+"<sihke>"
+	"sihke" Adv <W:0.0> @>CC #5->7
+: 
+"<sámegillii>"
+	"sámegiella" N Sem/Lang Sg Ill <W:0.0> <cohort-with-dynamic-compound> @<ADVL #6->4
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #7->6
+: 
+"<suoma->"
+	"suopma" N Sem/Lang Cmp/SgGen Cmp/SplitR Cmp <W:0.0> @>N #8->9
+: 
+"<ruoŧa->"
+	"Ruoŧŧa" Err/Orth N Prop Sem/Plc Cmp/SgGen Cmp/SplitR Cmp <W:0.0> @>N #9->11
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #10->9
+: 
+"<dárogillii>"
+	"dárogiella" N Sem/Lang Sg Ill <W:0.0> <cohort-with-dynamic-compound> @<ADVL #11->4
+"<:>"
+	":" CLB <W:0.0> #12->4
+:   
+"<¶>"
+	"¶" CLB <W:0.0> #13->4
+:\n
+
+"<skuolfi>"
+	"skuolfi" N Sem/Ani Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<jievjaskuolfi>"
+	"jievjaskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @<SPRED #3->1
+"<;>"
+	";" CLB <W:0.0> #4->1
+: 
+"<soadjanjálla>"
+	"njálla" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @<SPRED #5->1
+		"soadjá" N Sem/Body Cmp/SgNom Cmp <W:0.0> #5->1
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #6->8
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #7->8
+: 
+"<tunturipöllö>"
+	"tunturipöllö" ? @X #8->0
+"<;>"
+	";" CLB <W:0.0> #9->1
+: 
+"<fjälluggla>"
+	"fjälluggla" ? @X #10->0
+"<;>"
+	";" CLB <W:0.0> #11->1
+: 
+"<snøugle>"
+	"snøugle" ? @X #12->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #13->1
+:\n
+
+"<lidnu>"
+	"lidnu" N Sem/Ani Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<bealljeskuolfi>"
+	"bealljeskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #3->1
+"<;>"
+	";" CLB <W:0.0> #4->1
+: 
+"<bumbbástat>"
+	"bumbá" N Sem/Ctain Sg Loc PxSg2 <W:0.0> @ADVL> #5->7
+"<;>"
+	";" CLB <W:0.0> #6->1
+: 
+"<hahpat>"
+	"hahpat" <mv> V IV Inf <W:0.0> @IMV #7->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #8->7
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #9->10
+: 
+"<huuhkaja>"
+	"huuhkaja" ? @X #10->0
+"<,>"
+	"," CLB <W:0.0> #11->10
+: 
+"<berguv>"
+	"berguv" ? @X #12->0
+"<;>"
+	";" CLB <W:0.0> #13->1
+: 
+"<hubro>"
+	"hubro" ? @X #14->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #15->1
+:\n
+
+"<ránesskuolfi>"
+	"ránesskuolfi" N Sem/Ani Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #2->3
+: 
+"<lapinpöllö>"
+	"lapinpöllö" ? @X #3->0
+"<;>"
+	";" CLB <W:0.0> #4->1
+: 
+"<lappuggla>"
+	"lappuggla" ? @X #5->0
+"<;>"
+	";" CLB <W:0.0> #6->1
+: 
+"<lappugle>"
+	"lappugle" ? @X #7->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #8->1
+:\n
+
+"<bearalskuolfi>"
+	"bearalskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<pearalskuolfi>"
+	"pearalskuolfi" ? @X #3->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #4->6
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #5->6
+: 
+"<helmipöllö>"
+	"helmipöllö" ? @X #6->0
+"<;>"
+	";" CLB <W:0.0> #7->1
+: 
+"<pärluggla>"
+	"pärluggla" ? @X #8->0
+"<;>"
+	";" CLB <W:0.0> #9->1
+: 
+"<perlugle>"
+	"perlugle" ? @X #10->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #11->1
+:\n
+
+"<sáhpánskuolfi>"
+	"sáhpánskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<bigán>"
+	"bigán" N Sem/Hum Sg Nom <W:0.0> @<SPRED #3->1
+"<;>"
+	";" CLB <W:0.0> #4->1
+: 
+"<skutnjaloddi>"
+	"skutnjaloddi" N Sem/Ani Sg Nom <W:0.0> @<SPRED #5->1
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #6->8
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #7->8
+: 
+"<hiiripöllö>"
+	"hiiripöllö" ? @X #8->0
+"<;>"
+	";" CLB <W:0.0> #9->1
+: 
+"<hökuggla>"
+	"hökuggla" ? @X #10->0
+"<;>"
+	";" CLB <W:0.0> #11->1
+: 
+"<haukugle>"
+	"haukugle" ? @X #12->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #13->1
+:\n
+
+"<cihceskuolfi>"
+	"cihceskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<čuonanskuolfi>"
+	"čuonanskuolfi" N Sem/Ani Sg Nom <W:0.0> <cohort-with-dynamic-compound> @<SPRED #3->1
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #4->6
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #5->6
+: 
+"<varpuspöllö>"
+	"varpuspöllö" ? @X #6->0
+"<;>"
+	";" CLB <W:0.0> #7->1
+: 
+"<sparvuggla>"
+	"sparvuggla" ? @X #8->0
+"<;>"
+	";" CLB <W:0.0> #9->1
+: 
+"<spurveugle>"
+	"spurveugle" ? @X #10->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #11->1
+:\n
+
+"<skuolffit>"
+	"skuolfi" N Sem/Ani Pl Nom <W:0.0> @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #2->3
+"<idjalottit>"
+	"idjaloddi" N Sem/Ani Pl Nom <W:0.0> <cohort-with-dynamic-compound> @<SPRED #3->1
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #4->6
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #5->6
+: 
+"<pöllöt>"
+	"pöllöt" ? @X #6->0
+"<;>"
+	";" CLB <W:0.0> #7->1
+: 
+"<ugglor>"
+	"ugglor" ? @X #8->0
+"<;>"
+	";" CLB <W:0.0> #9->1
+: 
+"<ugler>"
+	"ugler" ? @X #10->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #11->1
+:\n
+
+"<skuolfelottit>"
+	"loddi" N Sem/Ani Pl Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+		"skuolfi" N Sem/Ani Cmp/SgNom Cmp <W:0.0> #1->0
+: 
+"<–>"
+	"–" PUNCT <W:0.0> #2->3
+: 
+"<pöllölinnut>"
+	"pöllölinnut" ? @X #3->0
+"<;>"
+	";" CLB <W:0.0> #4->1
+: 
+"<ugglefåglar>"
+	"ugglefåglar" ? @X #5->0
+"<;>"
+	";" CLB <W:0.0> #6->1
+: 
+"<ugler>"
+	"ugler" ? @X #7->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #8->1
+:\n
+
+"<Share>"
+	"Share" ? @X #1->0
+: 
+"<this>"
+	"this" ? @X #2->0
+"<:>"
+	":" CLB <W:0.0> #3->3
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #4->4
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Twitter>"
+	"Twitter" N Prop Sem/Org Sg Nom <W:0.0> @X #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #11->10
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #12->8
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Nom <W:0.0> @X #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #11->10
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #12->8
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Google>"
+	"Google" N Prop Sem/Obj Sg Nom <W:0.0> @X #5->0
+"<+>"
+	"+" PUNCT <W:0.0> #6->9
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #7->8
+"<Opens>"
+	"Opens" ? @X #8->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #9->0
+: 
+"<new>"
+	"new" ? @X #10->0
+: 
+"<window>"
+	"window" ? @X #11->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #12->11
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #13->9
+:\n
+
+"<Related>"
+	"Related" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->2
+:\n
+
+"<Giellablogga>"
+	"blogga" N Sem/Txt Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+		"giella" N Sem/Lang_Tool Cmp/SgNom Cmp <W:0.0> #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+"<,>"
+	"," CLB <W:0.0> #1->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Ovdasiidu>"
+	"siidu" N Sem/Txt Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+		"ovda" N Sem/Dummytag Cmp/SgNom Cmp <W:0.0> #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+]]></dependency>
+  </body>
+</document>

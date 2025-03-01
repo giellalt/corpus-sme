@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id">
+  <header>
+    <title> 
+Utlysning av midler - Samiske språktiltak
+</title>
+    <genre code="admin"/>
+    <author>
+      <unknown/>
+    </author>
+    <wordcount>118</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Lene Antonsen" email="lene.antonsen@uit.no"/>
+    <multilingual>
+      <language xml:lang="nob"/>
+      <language xml:lang="sme"/>
+    </multilingual>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate  1.14 ; file-specific xsl  $Revision: 1.4 $; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Almmu>"
+	"Almmu" ? @X #1->0
+: 
+"<hus>"
+	"hus" ? @X #2->0
+"<:>"
+	":" CLB <W:0.0> #3->4
+: 
+"<Doarjja>"
+	"doarjja" N Sem/Money Sg Nom <W:0.0> @HNOUN #4->0
+: 
+"<sámegiel>"
+	"sámegiel" A Sem/Dummytag Attr <W:0.0> @>N #5->6
+: 
+"<doaimmaide>"
+	"doaibma" N Sem/Act Pl Ill <W:0.0> @<ADVL #6->4
+:  
+"<¶>"
+	"¶" CLB <W:0.0> #7->4
+:\n
+
+"<Suohkana>"
+	"suohkan" N Sem/Org Sg Gen <W:0.0> @>N #1->2
+: 
+"<searvvit>"
+	"searvi" N Sem/Org Pl Nom <W:0.0> @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #3->2
+: 
+"<iežát>"
+	"iežá" Pron Indef Pl Nom <W:0.0> @SUBJ> #4->2
+: 
+"<sáhttet>"
+	"sáhttit" <aux> V IV Ind Prs Pl3 <W:0.0> @FAUX #5->0
+: 
+"<ohcat>"
+	"ohcat" <mv> V TV Inf <W:0.0> @IMV #6->5
+: 
+"<doarjaga>"
+	"doarjja" N Sem/Money Sg Acc <W:0.0> @<OBJ #7->6
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #8->5
+:\n
+
+"<Lassegoluide>"
+	"gollu" N Sem/Money Pl Ill <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @ADVL> #1->7
+		"lassi" N Sem/Amount Cmp/SgNom Cmp <W:0.0> #1->7
+: 
+"<go>"
+	"go" CS <W:0.0> @CVP #2->7
+: 
+"<báikkálaš>"
+	"báikkálaš" A Sem/Dummytag Attr <W:0.0> @>N #3->4
+: 
+"<doaimmat>"
+	"doaibma" N Sem/Act Pl Nom <W:0.0> @SUBJ> #4->7
+: 
+"<dahe>"
+	"dahe" CC <W:0.0> @CNP #5->4
+: 
+"<doalut>"
+	"doalut" N Sem/Event Pl Nom <W:0.0> @SUBJ> #6->4
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs Pl3 <W:0.0> @FMV #7->0
+: 
+"<sámegillii>"
+	"sámegiella" N Sem/Lang Sg Ill <W:0.0> <cohort-with-dynamic-compound> @<ADVL #8->7
+: 
+"<maid>"
+	"maid" Adv <W:0.0> @<ADVL #9->7
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #10->7
+:\n
+
+"<Doaimmaide>"
+	"doaibma" N Sem/Act Pl Ill <W:0.0> @ADVL> #1->1
+: 
+"<maiguin>"
+	"mii" Pron Rel Pl Com <W:0.0> @ADVL> #2->4
+: 
+"<suohkanis>"
+	"suohkan" N Sem/Org Sg Loc <W:0.0> @ADVL> #3->4
+: 
+"<ovddida>"
+	"ovddidit" <mv> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FS-N< #4->1
+: 
+"<sámegiela>"
+	"sámegiella" N Sem/Lang Sg Gen <W:0.0> <cohort-with-dynamic-compound> @>N #5->6
+: 
+"<geavaheami>"
+	"geavaheapmi" N Sem/Act Sg Acc <W:0.0> @<OBJ #6->4
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #7->6
+: 
+"<ipmárdusa>"
+	"ipmárdus" N Sem/Prod-cogn Sg Acc <W:0.0> @<OBJ #8->6
+: 
+"<das>"
+	"dat" Pron Dem Sg Loc <W:0.0> @<ADVL #9->4
+"<.>"
+	"." CLB <W:0.0> #10->10
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Eanet>"
+	"eanet" A Sem/Dummytag Gram/Comp Attr <W:0.0> @>N #1->2
+: 
+"<dieđuid>"
+	"diehtu" N Sem/Prod-cogn_Txt Pl Acc <W:0.0> @X #2->0
+"<:>"
+	":" CLB <W:0.0> #3->3
+: 
+"<Inger>"
+	"Inger" N Prop Sem/Fem Attr <W:0.0> @>N #4->5
+: 
+"<M.>"
+	"M" N Sem/Sign ABBR Gram/TAbbr Attr <W:0.0> @>N #5->6
+	"m" N Sem/Measr ABBR Gram/IAbbr Attr <W:0.0> @>N #5->6
+	"m" N Sem/Sign ABBR Gram/TAbbr Attr <W:0.0> @>N #5->6
+: 
+"<Åsli>"
+	"Åsli" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #6->2
+"<,>"
+	"," CLB <W:0.0> #7->6
+: 
+"<Gáivuona suohkanis>"
+	"Gáivuona suohkan" N Prop Sem/Org Sg Loc <W:0.0> @ADVL> #8->11
+"<,>"
+	"," CLB <W:0.0> #9->8
+: 
+"<tlf>"
+	"tlf" N Sem/Obj-el ABBR Gram/TNumAbbr Attr <W:0.0> @>Num #10->11
+: 
+"<77>"
+	"77" Num Arab Sg Nom <W:0.0> @HNOUN #11->6
+: 
+"<71>"
+	"71" Num Arab Sg Nom <W:0.0> @HNOUN #12->10
+: 
+"<92>"
+	"92" Num Arab Sg Nom <W:0.0> @HNOUN #13->10
+: 
+"<32>"
+	"32" Num Arab Sg Nom <W:0.0> @HNOUN #14->10
+: 
+"<dahe>"
+	"dahe" CC <W:0.0> @CNP #15->14
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #16->16
+:\n
+
+"<Ohcan>"
+	"ohcan" N Sem/Act Sg Nom <W:0.0> @SUBJ> #1->2
+: 
+"<sáddejuvvo>"
+	"sáddet" Ex/V Ex/TV Der/PassL <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #2->0
+"<:>"
+	":" CLB <W:0.0> #3->2
+: 
+"<Gáivuona suohkan>"
+	"Gáivuona suohkan" N Prop Sem/Org Sg Nom <W:0.0> @HNOUN #4->2
+"<,>"
+	"," CLB <W:0.0> #5->4
+: 
+"<9146>"
+	"9146" Num Arab Sg Nom <W:0.0> @HNOUN #6->4
+: 
+"<Olderdalen>"
+	"Olderdalen" N Prop Sem/Plc Sg Gen Allegro <W:0.0> @Num< #7->6
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #8->2
+:\n
+
+]]></dependency>
+  </body>
+</document>

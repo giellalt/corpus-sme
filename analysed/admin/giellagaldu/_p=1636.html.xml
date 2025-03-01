@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id">
+  <header>
+    <title>Giellagáhtten: Makkár ja guđemuš | Sámi Giellagáldu</title>
+    <genre code="admin"/>
+    <author>
+      <person firstname="Maret Laila" lastname="Anti" sex="f" born="" nationality=""/>
+    </author>
+    <year>2016</year>
+    <wordcount>140</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <license type="standard"/>
+    </availability>
+    <origFileName>http://www.giella.org/?p=1636</origFileName>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision: 150288 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA[:↓ 
+"<Skip>"
+	"Skip" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<Main>"
+	"Main" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #3->0
+: 
+"<Content>"
+	"Content" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #5->3
+:\n
+
+"<Giellagáhtten>"
+	"giellagáhtten" N Sem/Act Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+"<:>"
+	":" CLB <W:0.0> #2->1
+: 
+"<Makkár>"
+	"makkár" Pron Interr Sg Nom <W:0.0> @HNOUN #3->1
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #4->3
+: 
+"<guđemuš>"
+	"guhtemuš" Pron Rel Sg Nom <W:0.0> @HNOUN #5->1
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #6->1
+:\n
+
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<on>"
+	"on" Adv <W:0.0> @X #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->3
+:\n
+
+"<by>"
+	"by" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Maret>"
+	"Máret" Err/Orth-a-á N Prop Sem/Fem Attr <W:0.0> @>N #1->2
+: 
+"<Laila>"
+	"Laila" N Prop Sem/Fem Attr <W:0.0> @>N #2->3
+: 
+"<Anti>"
+	"Anti" N Prop Sem/Sur Sg Nom <W:0.0> @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #4->3
+:\n
+
+"<Guđemuš>"
+	"guhtemuš" Pron Interr Sg Nom <W:0.0> @HNOUN #1->0
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @HNOUN #2->0
+"<?>"
+	"?" CLB <W:0.0> #3->1
+: 
+
+"<Makkár>"
+	"makkár" Pron Interr Attr <W:0.0> @>N #1->2
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @HNOUN #2->0
+"<?>"
+	"?" CLB <W:0.0> #3->2
+: 
+
+"<Dán>"
+	"dát" Pron Dem Sg Loc Attr <W:0.0> @>Num #1->2
+: 
+"<guovtti>"
+	"guokte" Num Sg Loc Attr <W:0.0> @>N #2->3
+: 
+"<gažaldagas>"
+	"gažaldat" N Sem/Prod-ling Sg Loc <W:0.0> @ADVL> #3->4
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #4->0
+: 
+"<erohus>"
+	"erohus" N Sem/Feat Sg Nom <W:0.0> <ext> @<SUBJ #5->4
+:  
+"<¶>"
+	"¶" CLB <W:0.0> #6->4
+:\n
+
+"<“>"
+	"“" PUNCT LEFT <W:0.0> #1->2
+"<Guđemuš>"
+	"guhtemuš" Pron Interr Sg Nom <W:0.0> @HNOUN #2->0
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @HNOUN #3->0
+"<?>"
+	"?" CLB <W:0.0> #4->2
+
+"<”>"
+	"”" PUNCT RIGHT <W:0.0> #1->2
+: 
+"<Son>"
+	"son" Pron Pers Sg3 Nom <W:0.0> @SUBJ> #2->5
+: 
+"<gii>"
+	"gii" Pron Rel Sg Nom <W:0.0> @SUBJ> #3->4
+: 
+"<jearrá>"
+	"jearrat" <mv> V TV Ind Prs Sg3 <W:0.0> @FS-N< #4->2
+: 
+"<háliida>"
+	"háliidit" <aux> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FAUX #5->0
+: 
+"<diehtit>"
+	"diehtit" <mv> V TV Inf <W:0.0> @IMV #6->5
+: 
+"<justa>"
+	"justa" Adv <W:0.0> @<ADVL #7->6
+: 
+"<guđemuš>"
+	"guhtemuš" Pron Rel Sg Nom <W:0.0> @SUBJ> #8->10
+: 
+"<lanjas>"
+	"latnja" N Sem/Build-room Sg Loc <W:0.0> @Pron< #9->8
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FS-N< #10->6
+: 
+"<sáhka>"
+	"sáhka" N Sem/Semcon Sg Nom <W:0.0> @<SPRED #11->10
+: 
+"<máŋgga>"
+	"máŋga" Pron Indef Sg Gen <W:0.0> @>N #12->13
+: 
+"<lanja>"
+	"latnja" N Sem/Build-room Sg Gen <W:0.0> @>P #13->14
+: 
+"<gaskkas>"
+	"gaskkas" Po <W:0.0> @<ADVL #14->10
+"<.>"
+	"." CLB <W:0.0> #15->5
+: 
+
+"<Jearranpronomena>"
+	"pronomen" N Sem/Cat Sg Acc <W:0.0> <cohort-with-dynamic-compound> @OBJ> #1->1
+		"jearrat" Ex/V TV Der/NomAct N Cmp/SgNom Cmp <W:0.0> #1->1
+: 
+"<guđemuš>"
+	"guhtemuš" Pron Rel Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<čujuhage>"
+	"čujuhit" <mv> V TV Gram/3syll Ind Prs Sg3 Foc/Pos-ge <W:0.0> @FS-N< #3->1
+: 
+"<justa>"
+	"justa" Adv <W:0.0> @<ADVL #4->3
+: 
+"<geasa>"
+	"gii" Pron Rel Sg Ill <W:0.0> @<ADVL #5->3
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #6->5
+: 
+"<masa>"
+	"mii" Pron Rel Sg Ill <W:0.0> @<ADVL #7->5
+: 
+"<máŋgga>"
+	"máŋga" Pron Indef Sg Gen <W:0.0> @>N #8->3
+	"máŋga" Pron Indef Sg Ill Attr <W:0.0> @<ADVL #8->3
+	"máŋga" Pron Indef Sg Loc Attr <W:0.0> @<ADVL #8->3
+: 
+"<olbmos>"
+	"olmmoš" N Sem/Hum Sg Loc <W:0.0> @<ADVL #9->3
+"<,>"
+	"," CLB <W:0.0> #10->9
+: 
+"<diŋggas>"
+	"diŋga" N Sem/Ani_Build_Hum_Txt Sg Loc <W:0.0> @<ADVL #11->5
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #12->11
+: 
+"<áššis>"
+	"ášši" N Sem/Semcon Sg Loc <W:0.0> @<ADVL #13->5
+"<.>"
+	"." CLB <W:0.0> #14->14
+: 
+
+"<Guhtemuš>"
+	"guhtemuš" Pron Rel Sg Nom <W:0.0> @SUBJ> #1->0
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #2->1
+: 
+"<guđemuš>"
+	"guhtemuš" Pron Rel Sg Nom <W:0.0> @SUBJ> #3->4
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs Pl3 <W:0.0> @FS-N< #4->1
+: 
+"<bálddalas>"
+	"bálddalas" A Sem/Dummytag Attr <W:0.0> @>N #5->6
+: 
+"<hámit>"
+	"hápmi" N Sem/Feat-phys Pl Nom <W:0.0> @<SPRED #6->4
+"<.>"
+	"." CLB <W:0.0> #7->1
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Guđemuš>"
+	"guhtemuš" Pron Interr Sg Nom <W:0.0> @SUBJ> #1->5
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @SUBJ> #2->5
+: 
+"<dáid>"
+	"dát" Pron Dem Pl Gen <W:0.0> @>N #3->4
+: 
+"<lanjain>"
+	"latnja" N Sem/Build-room Sg Com <W:0.0> @ADVL> #4->5
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #5->0
+: 
+"<du>"
+	"don" Pron Pers Sg2 Gen <W:0.0> @>N #6->7
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @<SPRED #7->5
+"<?>"
+	"?" CLB <W:0.0> #8->5
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<Makkár>"
+	"makkár" Pron Interr Attr <W:0.0> @>N #1->2
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @SUBJ> #2->3
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #3->0
+: 
+"<dát>"
+	"dát" Pron Dem Sg Nom <W:0.0> @<SPRED #4->3
+"<?>"
+	"?" CLB <W:0.0> #5->3
+: 
+
+"<Dá>"
+	"dá" Adv Sem/Time <W:0.0> @ADVL> #1->2
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FMV #2->0
+: 
+"<njeallječiegat>"
+	"njealječiegat" A Err/Orth-nom-gen Sem/Dummytag Attr <W:0.0> @>N #3->4
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> <ext> @<SUBJ #4->2
+"<.>"
+	"." CLB <W:0.0> #5->2
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<“>"
+	"“" PUNCT LEFT <W:0.0> #1->2
+"<Makkár>"
+	"makkár" Pron Interr Attr <W:0.0> @>N #2->3
+: 
+"<lanjas>"
+	"latnja" N Sem/Build-room Sg Loc <W:0.0> @HNOUN #3->0
+"<?>"
+	"?" CLB <W:0.0> #4->3
+
+"<”>"
+	"”" PUNCT RIGHT <W:0.0> #1->2
+"<Dán>"
+	"dát" Pron Dem Sg Acc <W:0.0> @>N #2->3
+: 
+"<gažaldaga>"
+	"gažaldat" N Sem/Prod-ling Sg Acc <W:0.0> @OBJ> #3->4
+: 
+"<jearrá>"
+	"jearrat" <mv> V TV Ind Prs Sg3 <W:0.0> @FMV #4->0
+: 
+"<go>"
+	"go" CS <W:0.0> @CVP #5->6
+: 
+"<háliida>"
+	"háliidit" <aux> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FS-<ADVL #6->4
+: 
+"<diehtit>"
+	"diehtit" <mv> V TV Inf <W:0.0> @FS-IMV #7->6
+: 
+"<makkár>"
+	"makkár" Pron Interr Attr <W:0.0> @>N #8->9
+: 
+"<iešvuohta>"
+	"iešvuohta" N Sem/Feat Sg Nom <W:0.0> @SUBJ> #9->11
+: 
+"<lanjas>"
+	"latnja" N Sem/Build-room Sg Loc <W:0.0> @ADVL> #10->11
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 <W:0.0> @FS-OBJ #11->7
+"<.>"
+	"." CLB <W:0.0> #12->4
+: 
+
+"<Ovdamearkka dihte>"
+	"ovdamearkka dihte" Adv <W:0.0> @ADVL> #1->2
+: 
+"<leago>"
+	"leat" <mv> V IV Ind Prs Sg3 Qst <W:0.0> @FMV #2->0
+: 
+"<gievkkan>"
+	"gievkkan" N Sem/Build-room Sg Nom <W:0.0> <ext> @<SUBJ #3->2
+"<,>"
+	"," CLB <W:0.0> #4->5
+: 
+"<leago>"
+	"leat" <mv> V IV Ind Prs Sg3 Qst <W:0.0> @FS-<ADVL #5->2
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @<SUBJ #6->5
+: 
+"<ruoná>"
+	"ruoná" A Sem/Dummytag Sg Acc <W:0.0> @SPRED<OBJ #7->5
+	"ruoná" A Sem/Dummytag Sg Nom <W:0.0> @<SPRED #7->5
+"<,>"
+	"," CLB <W:0.0> #8->9
+: 
+"<dahje>"
+	"dahje" CC <W:0.0> @CVP #9->5
+: 
+"<leago>"
+	"leat" <mv> V IV Ind Prs Sg3 Qst <W:0.0> @FS-VFIN< #10->2
+: 
+"<latnja>"
+	"latnja" N Sem/Build-room Sg Nom <W:0.0> @<SUBJ #11->10
+: 
+"<njeallječiegat>"
+	"njealječiegat" A Err/Orth-nom-gen Sem/Dummytag Sg Nom <W:0.0> @<SPRED #12->10
+"<.>"
+	"." CLB <W:0.0> #13->2
+: 
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #1->2
+"<Gáldu>"
+	"Gáldu" N Prop Sem/Org Sg Nom <W:0.0> @HNOUN #2->0
+"<:>"
+	":" CLB <W:0.0> #3->2
+: 
+"<Nickel>"
+	"Nickel" N Prop Sem/Sur Sg Nom <W:0.0> @VOC #4->0
+"<,>"
+	"," CLB <W:0.0> #5->4
+: 
+"<Klaus>"
+	"Klaus" N Prop Sem/Mal Attr <W:0.0> @>N #6->7
+: 
+"<Peter>"
+	"Peter" N Prop Sem/Mal Sg Nom <W:0.0> @HNOUN #7->4
+: 
+"<jaSammallahti>"
+	"jaSammallahti" ? @X #8->0
+"<,>"
+	"," CLB <W:0.0> #9->8
+: 
+"<Pekka>"
+	"Pekka" N Prop Sem/Mal Sg Nom <W:0.0> @HNOUN #10->7
+"<.>"
+	"." CLB <W:0.0> #11->2
+: 
+
+"<“>"
+	"“" PUNCT LEFT <W:0.0> #1->2
+"<Nordsamisk>"
+	"Nordsamisk" ? @X #2->0
+: 
+"<grammatikk>"
+	"grammatikk" ? @X #3->0
+"<”>"
+	"”" PUNCT RIGHT <W:0.0> #4->3
+"<,>"
+	"," CLB <W:0.0> #5->5
+: 
+"<2011>"
+	"2011" Num Sem/Year Sg Nom <W:0.0> @X #6->0
+: 
+"<Davvi Girji>"
+	"Davvi Girji" N Prop Sem/Org Sg Nom <W:0.0> @X #7->0
+"<,>"
+	"," CLB <W:0.0> #8->7
+: 
+"<siidu>"
+	"siidu" N Sem/Txt Sg Nom <W:0.0> @X #9->0
+: 
+"<121>"
+	"121" Num Arab Sg Nom <W:0.0> @X #10->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #11->10
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #12->12
+:\n
+
+"<Share>"
+	"Share" ? @X #1->0
+: 
+"<this>"
+	"this" ? @X #2->0
+"<:>"
+	":" CLB <W:0.0> #3->3
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #4->4
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Twitter>"
+	"Twitter" N Prop Sem/Org Sg Nom <W:0.0> @X #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #11->10
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #12->8
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Nom <W:0.0> @X #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #11->10
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #12->8
+:\n
+
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" ? @X #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"On" N Prop Sem/Sur Attr <W:0.0> @>N #4->5
+: 
+"<Google>"
+	"Google" N Prop Sem/Obj Sg Nom <W:0.0> @X #5->0
+"<+>"
+	"+" PUNCT <W:0.0> #6->9
+: 
+"<(>"
+	"(" PUNCT LEFT <W:0.0> #7->8
+"<Opens>"
+	"Opens" ? @X #8->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #9->0
+: 
+"<new>"
+	"new" ? @X #10->0
+: 
+"<window>"
+	"window" ? @X #11->0
+"<)>"
+	")" PUNCT RIGHT <W:0.0> #12->11
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #13->9
+:\n
+
+"<Related>"
+	"Related" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->2
+:\n
+
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<in>"
+	"ii" <aux> V IV Neg Ind Sg1 <W:0.0> @FAUX #2->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #3->2
+:\n
+
+"<Giellablogga>"
+	"blogga" N Sem/Txt Sg Nom <W:0.0> <cohort-with-dynamic-compound> @HNOUN #1->0
+		"giella" N Sem/Lang_Tool Cmp/SgNom Cmp <W:0.0> #1->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #2->1
+:\n
+
+]]></dependency>
+  </body>
+</document>

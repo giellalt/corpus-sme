@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id">
+  <header>
+    <title>Teknihkalaš spesifihkašuvnnat ja liŋkkat</title>
+    <genre code="facta"/>
+    <author>
+      <person firstname="Lene" lastname="Antonsen" sex="f" born="1962" nationality="NO"/>
+    </author>
+    <wordcount>51</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Børre Gaup" email="borre.gaup@uit.no"/>
+    <multilingual/>
+    <origFileName>http://oahpa.no/sme/useoahpa/techspec.html</origFileName>
+    <parallel_text xml:lang="eng" location="techspec.eng.html"/>
+    <parallel_text xml:lang="nob" location="techspec.nob.html"/>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Teknihkalaš>"
+	"teknihkalaš" A Sem/Dummytag Sg Nom <W:0.0> @SPRED> #1->4
+: 
+"<spesifihkašuvnnat>"
+	"spesifihkašuvnnat" ? @X #2->0
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #3->2
+: 
+"<liŋkkat>"
+	"liŋka" N Sem/Dummytag Pl Nom <W:0.0> @HNOUN #4->0
+: 
+"<¶>"
+	"¶" CLB <W:0.0> #5->4
+:\n
+
+"<VISL>"
+	"VISL" N Prop Sem/Org ACR Dyn Sg Nom <W:0.0> @HNOUN #1->6
+"<:>"
+	":" CLB <W:0.0> #2->6
+: 
+"<Spealut>"
+	"speallu" N Sem/Dummytag Pl Nom <W:0.0> @SUBJ> #3->6
+: 
+"<ja>"
+	"ja" CC <W:0.0> @CNP #4->3
+: 
+"<cealkkamuorrahuksen>"
+	"muorrahuksen" N Sem/Act Sg Nom <W:0.0> <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @SUBJ> #5->3
+		"cealkka" N Sem/Cat Cmp/SgNom Cmp <W:0.0> #5->3
+: 
+"<gáibida>"
+	"gáibidit" <mv> V TV Gram/3syll Ind Prs Sg3 <W:0.0> @FMV #6->0
+: 
+"<Java>"
+	"Java" N Prop Sem/Plc Sg Acc <W:0.0> @<OBJ #7->6
+: 
+"<6.0>"
+	"6.0" Num Sem/ID <W:0.0> @X #8->0
+"<.>"
+	"." CLB <W:0.0> #9->6
+: 
+
+"<Cealkkamuorra>"
+	"muorra" N Sem/Mat_Plant Sg Nom <W:0.0> <cohort-with-dynamic-compound> @SUBJ> #1->2
+		"cealkka" N Sem/Cat Cmp/SgNom Cmp <W:0.0> #1->2
+: 
+"<ii>"
+	"ii" <aux> V IV Neg Ind Sg3 <W:0.0> @FAUX #2->0
+: 
+"<gáibit>"
+	"gáibidit" <mv> V TV Gram/3syll Ind Prs ConNeg <W:0.0> @IMV #3->2
+: 
+"<nu>"
+	"nu" Adv <W:0.0> @>A #4->5
+: 
+"<ođđa>"
+	"ođas" A Sem/Dummytag Attr <W:0.0> @>N #5->6
+: 
+"<veršuvnna>"
+	"veršuvdna" N Sem/Feat-measr Sg Acc <W:0.0> @<OBJ #6->3
+: 
+"<jus>"
+	"jus" CS <W:0.0> @CVP #7->8
+: 
+"<háliidat>"
+	"háliidit" <aux> V TV Gram/3syll Ind Prs Sg2 <W:0.0> @FS-<ADVL #8->3
+: 
+"<dušše>"
+	"dušše" Adv <W:0.0> @ADVL> #9->10
+: 
+"<geahččat>"
+	"geahččat" <mv> V TV Inf <W:0.0> @FS-IMV #10->8
+: 
+"<muoraid>"
+	"muorra" N Sem/Mat_Plant Pl Acc <W:0.0> @<OBJ #11->10
+"<.>"
+	"." CLB <W:0.0> #12->2
+: 
+
+"<Quizat>"
+	"quiz" N Sem/Game Pl Nom <W:0.0> @SUBJ> #1->2
+: 
+"<eai>"
+	"ii" <aux> V IV Neg Ind Pl3 <W:0.0> @FAUX #2->0
+: 
+"<gáibit>"
+	"gáibidit" <mv> V TV Gram/3syll Ind Prs ConNeg <W:0.0> @IMV #3->2
+: 
+"<Java>"
+	"Java" N Prop Sem/Plc Sg Acc <W:0.0> @<OBJ #4->3
+: 
+"<ollenge>"
+	"ollenge" Adv <W:0.0> @<ADVL #5->3
+"<.>"
+	"." CLB <W:0.0> #6->2
+: 
+
+"<Ođđa>"
+	"ođas" A Sem/Dummytag Attr <W:0.0> @>N #1->2
+: 
+"<Java-veršuvnna>"
+	"veršuvdna" N Sem/Feat-measr Sg Acc <W:0.0> <cohort-with-dynamic-compound> @OBJ> #2->4
+		"Java" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #2->4
+	"veršuvdna" N Sem/Feat-measr Sg Acc <W:0.0> <cohort-with-dynamic-compound> @OBJ> #2->4
+		"Java" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp <W:0.0> #2->4
+: 
+"<sáhtát>"
+	"sáhttit" <aux> V IV Ind Prs Sg2 <W:0.0> @FAUX #3->0
+: 
+"<viežžat>"
+	"viežžat" <mv> V TV Inf <W:0.0> @IMV #4->3
+: 
+"<dás>"
+	"dás" Adv <W:0.0> @<ADVL #5->4
+"<:>"
+	":" CLB <W:0.0> #6->3
+: 
+"<java.sun.com>"
+	"java.sun.com" URL <W:0.0> #7->7
+: 
+"<Vállje>"
+	"válljet" <mv> V TV Ind Prs Sg3 <W:0.0> @FMV #8->4
+: 
+"<.>"
+	"." CLB <W:0.0> #9->3
+:  
+
+"<¶>"
+	"¶" CLB <W:0.0> #1->1
+:\n
+
+]]></dependency>
+  </body>
+</document>
