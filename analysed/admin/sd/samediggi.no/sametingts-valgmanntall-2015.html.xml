@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>98</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.no/layout/set/print/Valg-og-manntall/Kampanjeside/Valgmanntall/Sametingts-valgmanntall-2015</origFileName><parallel_text xml:lang="nob" location="sametingts-valgmanntall-2015.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sametingts>"
+	"Sametingts" ? @X #1->0
+: 
+"<valgmanntall>"
+	"valgmanntall" ? @X #2->0
+: 
+"<2015>"
+	"2015" Num Arab Sem/Year Sg Nom @HNOUN #3->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #4->5
+: 
+"<Jienastuslohku>"
+	"jienastuslohku" N Sem/Group_Hum Sg Nom <cohort-with-dynamic-compound> @HNOUN #5->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #6->7
+: 
+"<Kampanjeside>"
+	"Kampanjeside" ? @X #7->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #8->9
+: 
+"<Válga>"
+	"válga" N Sem/Event Sg Nom @HNOUN #9->5
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<jienastuslohku>"
+	"jienastuslohku" N Sem/Group_Hum Sg Nom <cohort-with-dynamic-compound> @HNOUN #11->9
+: 
+"</>"
+	"/" PUNCT MIDDLE #12->13
+: 
+"<Sámediggi>"
+	"Sámediggi" N Prop Sem/Org Sg Nom <cohort-with-dynamic-compound> @HNOUN #13->11
+: 
+"<->"
+	"-" PUNCT MIDDLE #14->15
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #15->13
+: 
+"<¶>"
+	"¶" CLB #16->3
+:\n
+"<19.>"
+	"19" A Arab Ord Attr @>N #1->2
+: 
+"<Skábmamánnu>"
+	"skábmamánnu" N Sem/Time Sg Nom <cohort-with-dynamic-compound> @HNOUN #2->0
+: 
+"<2015>"
+	"2015" Num Arab Sem/Year Sg Nom @HNOUN #3->2
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<2>"
+	"2" Num Arab Sem/Time-clock Sg Nom @HNOUN #1->0
+: 
+"<Ávjovári>"
+	"Ávjovárri" N Prop Sem/Plc Sg Gen <cohort-with-dynamic-compound> @Num< #2->1
+: 
+"<valgkrets>"
+	"valgkrets" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+
+]]></dependency></body></document>

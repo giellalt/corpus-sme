@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="swe"/><wordcount>91</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Børre Gaup" email="borre.gaup@uit.no"/><origFileName>http://www.samediggi.se/4990</origFileName><parallel_text xml:lang="sma" location="5044.html"/><parallel_text xml:lang="smj" location="4988.html"/><parallel_text xml:lang="swe" location="4986.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Arbetsstipendier>"
+	"Arbetsstipendier" ? @X #1->0
+: 
+"<till>"
+	"till" ? @X #2->0
+: 
+"<samiska>"
+	"samiska" ? @X #3->0
+: 
+"<författare>"
+	"författare" ? @X #4->0
+: 
+"<D>"
+	"D" N Prop Sem/Hum ACR @X #5->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #6->7
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #7->5
+: 
+"<¶>"
+	"¶" CLB #8->8
+:\n
+"<Bargostipeanddat>"
+	"bargostipeanda" N Sem/Money Pl Nom <cohort-with-dynamic-compound> @HNOUN #1->0
+: 
+"<sámi>"
+	"sápmi" N Sem/Hum_Lang Sg Gen @>N #2->3
+: 
+"<čálliide>"
+	"čálli" N Sem/Hum_Pos NomAg Pl Ill @<ADVL #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Sámedikki>"
+	"Sámediggi" N Prop Sem/Org Sg Gen <cohort-with-dynamic-compound> @>N #1->2
+: 
+"<kulturráđđi>"
+	"kulturráđđi" N Sem/Org Sg Nom <cohort-with-dynamic-compound> @SUBJ> #2->3
+: 
+"<háleda>"
+	"háliidit" Err/Orth <aux> V TV Gram/3syll Ind Prs Sg3 @FAUX #3->0
+: 
+"<movttidahttit>"
+	"movttiidahttit" Err/Orth <mv> V TV Inf @IMV #4->3
+: 
+"<sámi>"
+	"sápmi" N Sem/Hum_Lang Sg Gen @>N #5->6
+: 
+"<čáppagirjjálašvuođa>"
+	"čáppagirjjálašvuohta" N Sem/Txt Sg Gen @>N #6->7
+: 
+"<olggosaddima>"
+	"olggosaddin" N Sem/Act Sg Acc <cohort-with-dynamic-compound> @<OBJ #7->4
+: 
+"<Ruoŧas>"
+	"Ruoŧŧa" N Prop Sem/Plc Sg Loc @<ADVL-ine #8->4
+"<.>"
+	"." CLB #9->3
+: 
+"<Sámedikki>"
+	"Sámediggi" N Prop Sem/Org Sg Gen <cohort-with-dynamic-compound> @>N #1->2
+: 
+"<kulturráđđi>"
+	"kulturráđđi" N Sem/Org Sg Nom <cohort-with-dynamic-compound> @SUBJ> #2->3
+: 
+"<juohká>"
+	"juohkit" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<dal>"
+	"dal" Adv @<ADVL-ine #4->3
+: 
+"<vihtta>"
+	"vihtta" Num Sg Acc @>N #5->6
+: 
+"<bargostipeandda>"
+	"bargostipeanda" N Sem/Money Sg Acc <cohort-with-dynamic-compound> @<OBJ #6->3
+: 
+"<á>"
+	"á" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SUBJ #7->3
+: 
+"<50 000>"
+	"50 000" Num Arab Sg Acc @>N #8->9
+	"50 000" Num Arab Sg Acc Attr @>N #8->9
+: 
+"<ruvnnu>"
+	"ruvdnu" N Sem/Clth-jewl_Curr Sg Acc @<OBJ #9->3
+: 
+"<sámi>"
+	"sápmi" N Sem/Hum_Lang Sg Gen @>N #10->11
+: 
+"<čálliide>"
+	"čálli" N Sem/Hum_Pos NomAg Pl Ill @<ADVL #11->3
+"<.>"
+	"." CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kulturráđđi>"
+	"kulturráđđi" N Sem/Org Sg Nom <cohort-with-dynamic-compound> @SUBJ> #1->2
+: 
+"<háleda>"
+	"háliidit" Err/Orth <aux> V TV Gram/3syll Ind Prs Sg3 @FAUX #2->0
+: 
+"<addit>"
+	"addit" <mv> V TV Inf @IMV #3->2
+: 
+"<eanet>"
+	"eanet" Adv Gram/Comp @>N #4->5
+: 
+"<sámiide>"
+	"sápmi" N Sem/Hum_Lang Pl Ill @<ADVL #5->3
+: 
+"<vejolašvuođa>"
+	"vejolašvuohta" N Sem/State Sg Gen @<ADVL #6->3
+: 
+"<ohcat>"
+	"ohcat" V TV Inf @<ADVL #7->3
+: 
+"<stipeandda>"
+	"stipeanda" N Sem/Money Sg Acc @-F<OBJ #8->7
+: 
+"<ja>"
+	"ja" CC @CVP #9->2
+: 
+"<danin>"
+	"danin" Adv @ADVL> #10->11
+: 
+"<váldá>"
+	"váldit" <mv> V TV Ind Prs Sg3 @FMV #11->2
+: 
+"<eret>"
+	"eret" Adv @<ADVL-ela #12->11
+: 
+"<ovdalaš>"
+	"ovdalaš" A Sem/Dummytag Attr @>N #13->14
+: 
+"<olggusaddingáibádusa>"
+	"gáibádus" N Sem/Prod-cogn Sg Acc <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @<OBJ #14->11
+		"saddit" Ex/V TV Der/NomAct N Sem/Act Cmp/SgNom Cmp #14->11
+			"olgu" N Sem/Plc Cmp/SgGen Err/Orth Cmp #14->11
+"<.>"
+	"." CLB #15->2
+: 
+"<Eaktu>"
+	"eaktu" N Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<ahte>"
+	"ahte" CS @CVP #3->5
+: 
+"<ohcci>"
+	"ohcci" N NomAg Sem/Hum Sg Nom @SUBJ> #4->5
+: 
+"<galgá>"
+	"galgat" <aux> V IV Ind Prs Sg3 @FS-OBJ #5->2
+: 
+"<čállit>"
+	"čállit" <mv> V TV Inf @FS-IMV #6->5
+: 
+"<sámegillii>"
+	"sámegiella" N Sem/Lang Sg Ill <cohort-with-dynamic-compound> @<ADVL #7->6
+: 
+"<ja>"
+	"ja" CC @CVP #8->5
+: 
+"<leahkit>"
+	"leat" <mv> V IV Inf @FS-IMV #9->6
+: 
+"<doaimmalaš>"
+	"doaimmalaš" A Sem/Hum Sg Nom @<SPRED #10->9
+: 
+"<Ruoŧas>"
+	"Ruoŧŧa" N Prop Sem/Plc Sg Loc @<ADVL-ine #11->9
+"<.>"
+	"." CLB #12->2
+: 
+"<Maŋemus>"
+	"maŋet" Ex/A Der/Superl A Attr @>N #1->2
+: 
+"<ohcanbeaivi>"
+	"ohcanbeaivi" N Sem/Time Sg Nom <cohort-with-dynamic-compound> @SUBJ> #2->3
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<1>"
+	"1" Num Arab Sem/Time-clock Sg Nom @<SPRED #4->3
+: 
+"<b.>"
+	"b" Adv Sem/Time ABBR Gram/TNumAbbr @<ADVL-ine #5->3
+"<skábmamánus>"
+	"skábmamánnu" N Sem/Time Sg Loc <cohort-with-dynamic-compound> @<ADVL-ine #6->3
+: 
+"<2008>"
+	"2008" Num Arab Sem/Year Sg Gen @<ADVL #7->3
+	"2008" Num Arab Sem/Year Sg Nom @<ADVL #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Ohcanskovvi>"
+	"ohcanskovvi" N Sem/Txt Sg Nom <cohort-with-dynamic-compound> @SUBJ> #1->2
+: 
+"<gávdno>"
+	"gávdnot" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<olgešspálttas>"
+	"spálta" N Sem/Dummytag Sg Loc @<ADVL-ine #3->2
+		"olgeš" A Sem/Dir Cmp/Attr Cmp #3->2
+"<.>"
+	"." CLB #4->2
+: 
+"<Jus>"
+	"jus" CS @CVP #1->2
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs Pl3 @FMV #2->0
+: 
+"<jearaldagat>"
+	"jearaldat" N Sem/Prod-ling Pl Nom @<SUBJ #3->2
+"<:>"
+	":" CLB #4->2
+: 
+"<Kulturgieđahalli>"
+	"gieđahalli" N NomAg Sem/Hum Sg Nom <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @>N #5->6
+		"kultuvra" N Sem/Domain Cmp/SgNom Cmp/Sh Cmp #5->6
+: 
+"<Susanne>"
+	"Susanne" N Prop Sem/Fem Attr @>N #6->7
+: 
+"<Idivuoma>"
+	"Idivuoma" N Prop Sem/Sur Sg Nom @HNOUN #7->3
+"<,>"
+	"," CLB #8->7
+: 
+"<tel.>"
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Attr @>Num #9->10
+: 
+"<0980-780>"
+	"0980-780" Num Arab Sem/ID @>Num #10->11
+: 
+"<57>"
+	"57" Num Arab Sg Nom Attr @>N #11->7
+	"57" Num Arab Sg Nom @HNOUN #11->7
+: 
+"<dehe>"
+	"dehe" CC @CNP #12->11
+: 
+"<sadjásaš>"
+	"sadjásaš" A Sem/Hum Attr @>N #13->14
+: 
+"<kulturgieđahalli>"
+	"gieđahalli" N NomAg Sem/Hum Sg Nom <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @>N #14->15
+		"kultuvra" N Sem/Domain Cmp/SgNom Cmp/Sh Cmp #14->15
+: 
+"<Anna>"
+	"Anna" N Prop Sem/Fem Attr @>N #15->16
+: 
+"<Sarri>"
+	"Sarri" N Prop Sem/Sur Sg Nom @HNOUN #16->9
+"<,>"
+	"," CLB #17->16
+: 
+"<tel.>"
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Attr @>Num #18->19
+: 
+"<0980-780>"
+	"0980-780" Num Arab Sem/ID @>Num #19->20
+: 
+"<37>"
+	"37" Num Arab Sg Nom Attr @>N #20->16
+	"37" Num Arab Sg Nom @HNOUN #20->16
+: 
+"<dehe>"
+	"dehe" CC @CNP #21->20
+: 
+"<kulturráđi>"
+	"kulturráđđi" N Sem/Org Sg Gen <cohort-with-dynamic-compound> @Num< #22->20
+: 
+"<ságadoalli>"
+	"ságadoalli" N Sem/Hum_Pos NomAg Sg Nom <cohort-with-dynamic-compound> @>N #23->24
+: 
+"<Per>"
+	"Per" N Prop Sem/Mal Attr @>N #24->25
+: 
+"<Gustav>"
+	"Gustav" N Prop Sem/Mal Attr @>N #25->26
+: 
+"<Labba>"
+	"Labba" N Prop Sem/Sur Sg Nom @HNOUN #26->22
+"<,>"
+	"," CLB #27->26
+: 
+"<tel.>"
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Attr @>Num #28->29
+: 
+"<073-817>"
+	"073-817" Num Arab Sem/ID @>Num #29->30
+: 
+"<71>"
+	"71" Num Arab Sg Nom Attr @>A #30->26
+	"71" Num Arab Sg Nom @HNOUN #30->26
+: 
+"<02.>"
+	"02" A Arab Ord Attr @X #31->0
+:  
+"<¶>"
+	"¶" CLB #32->2
+:\n
+
+]]></dependency></body></document>

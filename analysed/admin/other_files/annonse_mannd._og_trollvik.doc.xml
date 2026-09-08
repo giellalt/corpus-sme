@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id"><header><title>Annonse – Min Áigi, Áššu, Fremtid i Nord og Nordlys</title><genre code="admin"/><author><unknown/></author><wordcount>112</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Lene Antonsen" email="lene.antonsen@uit.no"/><multilingual><language xml:lang="sme"/><language xml:lang="nob"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate  1.14 ; file-specific xsl  $Revision: 1.4 $; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Annonse>"
+	"Annonse" ? @X #1->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<Min Áigi>"
+	"Min Áigi" N Prop Sem/Org Sg Nom @HNOUN #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<Áššu>"
+	"Áššu" N Prop Sem/Org Sg Nom @HNOUN #5->3
+"<,>"
+	"," CLB #6->5
+: 
+"<Fremtid>"
+	"Fremtid" ? @X #7->0
+: 
+"<i>"
+	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #8->9
+: 
+"<Nord>"
+	"Nord" N Prop Sem/Org Sg Nom @HNOUN #9->5
+	"Nord" N Prop Sem/Sur Sg Nom @HNOUN #9->5
+: 
+"<og>"
+	"og" ? @X #10->0
+: 
+"<Nordlys>"
+	"Nordlys" N Prop Sem/Org Sg Nom @APP-N< #11->9
+:   
+"<¶>"
+	"¶" CLB #12->3
+:\n
+"<Gulaskuddandieđiheapmi>"
+	"dieđiheapmi" N Sem/Act Sg Nom <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @HNOUN #1->0
+		"gulaskuddan" N Sem/Act Cmp/SgNom Cmp #1->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<báikenamat>"
+	"báikenamma" N Sem/Cat Pl Nom <cohort-with-dynamic-compound> @HNOUN #3->1
+: 
+"<Ruollaluovttas>"
+	"Ruollaluokta" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL-ine #4->3
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<Olmmáivákkis>"
+	"Olmmáivággi" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL #6->3
+:  
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Almmuhit>"
+	"almmuhit" <mv> V TV Gram/3syll Inf @IMV #1->0
+: 
+"<dáinna>"
+	"dát" Pron Dem Sg Com @<ADVL #2->1
+: 
+"<ahte>"
+	"ahte" CS @CVP #3->5
+: 
+"<Gáivuona suohkan>"
+	"Gáivuona suohkan" N Prop Sem/Org Sg Nom @SUBJ> #4->5
+: 
+"<lea>"
+	"leat" <aux> V IV Ind Prs Sg3 @FS-VFIN< #5->0
+: 
+"<sádden>"
+	"sáddet" <mv> V TV PrfPrc @FS-IMV #6->5
+: 
+"<báikenamaid>"
+	"báikenamma" N Sem/Cat Pl Acc <cohort-with-dynamic-compound> @<OBJ #7->6
+: 
+"<Ruollaluovttas>"
+	"Ruollaluokta" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL-ela #8->6
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<Olmmáivákkis>"
+	"Olmmáivággi" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL-ela #10->6
+: 
+"<gulaskuddamii>"
+	"gulaskuddan" N Sem/Act Sg Ill @<ADVL #11->6
+"<.>"
+	"." CLB #12->1
+: 
+"<Báikkálaš>"
+	"báikkálaš" A Sem/Dummytag Attr @>N #1->2
+: 
+"<searvvit>"
+	"searvi" N Sem/Org Pl Nom @SUBJ> #2->8
+: 
+"<mat>"
+	"mii" Pron Rel Pl Nom @SUBJ> #3->4
+: 
+"<hálidit>"
+	"háliidit" Err/Orth <aux> V TV Gram/3syll Ind Prs Pl3 @FS-N< #4->2
+: 
+"<čállit>"
+	"čállit" <mv> V TV Inf @FS-N<IMV #5->4
+: 
+"<cealkámuša>"
+	"cealkámuš" N Sem/Prod-ling Sg Acc @<OBJ #6->5
+"<,>"
+	"," CLB #7->16
+: 
+"<eaige>"
+	"ii" <aux> V IV Neg Ind Pl3 Foc/Neg-ge @FAUX #8->0
+: 
+"<leat>"
+	"leat" <aux> V IV Ind Prs ConNeg @FS-N<IAUX #9->8
+: 
+"<ožžon>"
+	"oažžut" <mv> V TV PrfPrc @IMV #10->9
+: 
+"<gulaskuddanbreava>"
+	"breava" N Sem/Txt Sg Acc <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @<OBJ #11->10
+		"gulaskuddan" N Sem/Act Cmp/SgNom Cmp #11->10
+"<,>"
+	"," CLB #12->16
+: 
+"<ožžot>"
+	"oažžut" <mv> V TV Ind Prs Pl3 @FMV #13->8
+: 
+"<breava>"
+	"breava" N Sem/Txt Sg Acc @<OBJ #14->13
+: 
+"<go>"
+	"go" CS @CVP #15->16
+: 
+"<váldet>"
+	"váldit" <mv> V TV Ind Prs Pl3 @FS-<ADVL #16->13
+: 
+"<oktavuođa>"
+	"oktavuohta" N Sem/Plc-abstr_Rel_State Sg Acc @<OBJ #17->16
+: 
+"<suohkana>"
+	"suohkan" N Sem/Org Sg Gen @>N #18->19
+: 
+"<bálvaluskantuvrrain>"
+	"bálvaluskantuvra" N Sem/Build-room_Org Pl Loc <cohort-with-dynamic-compound> @<ADVL #19->16
+"<.>"
+	"." CLB #20->8
+: 
+"<Dieđut>"
+	"diehtu" N Sem/Prod-cogn_Txt Pl Nom @SUBJ> #1->2
+: 
+"<gávdnojit>"
+	"gávdnot" <mv> V IV Ind Prs Pl3 @FMV #2->0
+: 
+"<maid>"
+	"maid" Adv @<ADVL-ine #3->2
+: 
+"<neahttasiiddus>"
+	"neahttasiidu" N Sem/Plc-abstr Sg Loc <cohort-with-dynamic-compound> @<ADVL-ine #4->2
+: 
+"<www.kafjord.kommune.no>"
+	"www.kafjord.kommune.no" URL #5->5
+:  
+"<¶>"
+	"¶" CLB #6->2
+:\n
+
+]]></dependency></body></document>

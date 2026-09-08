@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><wordcount>264</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="fkv"/><language xml:lang="sme"/><language xml:lang="nob"/></multilingual><parallel_text xml:lang="fkv" location="uuet_laulut_konserttiprogramin_teksti.doc"/><parallel_text xml:lang="nob" location="uuet_laulut_konserttiprogramin_teksti_nob.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Uuet>"
+	"Uuet" ? @X #1->0
+: 
+"<laulut>"
+	"laulut" ? @X #2->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Ođđa>"
+	"Ođđa" N Prop Attr @>N #4->5
+: 
+"<lávlagat>"
+	"lávlla" N Sem/Prod-audio Pl Nom @SUBJ> #5->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #6->7
+: 
+"<Nye>"
+	"Nye" ? @X #7->0
+: 
+"<sanger>"
+	"sanger" ? @X #8->0
+:  
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #9->0
+: 
+"<musihkkaprošeakta>"
+	"musihkkaprošeakta" N Sem/Act Sg Nom <cohort-with-dynamic-compound> @<SPRED #10->9
+: 
+"<mii>"
+	"mii" Pron Rel Sg Nom @SUBJ> #11->12
+: 
+"<lea>"
+	"leat" <aux> V IV Ind Prs Sg3 @FS-N< #12->10
+: 
+"<oaivvilduvvon>"
+	"oaivvildit" Ex/V Ex/TV Gram/3syll Der/PassL <mv> V IV PrfPrc @FS-N<IMV #13->12
+: 
+"<nuoraide>"
+	"nuorra" N Sem/Hum Pl Ill @<ADVL #14->13
+: 
+"<geat>"
+	"gii" Pron Rel Pl Nom @SUBJ> #15->16
+: 
+"<hálidit>"
+	"háliidit" Err/Orth <aux> V TV Gram/3syll Ind Prs Pl3 @FS-N< #16->14
+: 
+"<lávlut>"
+	"lávlut" <mv> V TV Inf @FS-N<IMV #17->16
+: 
+"<sáme->"
+	"sápmi" N Sem/Hum_Lang Cmp/SgGen Cmp/SplitR Cmp @>N #18->20
+"<,>"
+	"," CLB #19->18
+: 
+"<kveana->"
+	"kveana" N Sem/Hum Cmp/SgNom Cmp/SplitR Cmp @>N #20->22
+: 
+"<ja>"
+	"ja" CC @CNP #21->20
+: 
+"<suomagillii>"
+	"suomagiella" N Sem/Lang Sg Ill <cohort-with-dynamic-compound> @<ADVL #22->17
+"<.>"
+	"." CLB #23->5
+: 
+"<Prošeavtta>"
+	"prošeakta" N Sem/Act Sg Gen @>N #1->2
+: 
+"<lágideaddjin>"
+	"lágideaddji" N Sem/Hum_Pos NomAg Ess @ADVL> #2->3
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #3->0
+:  
+"<Kainun>"
+	"Kainu" N Prop Sem/Plc Ess @<SPRED #4->3
+: 
+"<institutti>"
+	"institutti" ? @X #5->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #6->7
+: 
+"<Kvensk>"
+	"Kvensk" ? @X #7->0
+: 
+"<institutt>"
+	"institutt" ? @X #8->0
+: 
+"<ovttas>"
+	"ovttas" Adv @X #9->0
+: 
+"<Davvi-Norgga>"
+	"Davvi-Norga" N Prop Sem/Plc Sg Gen <cohort-with-dynamic-compound> @>N #10->11
+: 
+"<kulturskuvllaiguin>"
+	"kulturskuvla" N Sem/Org Pl Com <cohort-with-dynamic-compound> @<ADVL #11->3
+"<.>"
+	"." CLB #12->3
+: 
+"<Prošeavtta>"
+	"prošeakta" N Sem/Act Sg Gen @>N #1->2
+: 
+"<ulbmilin>"
+	"ulbmil" N Sem/Semcon Ess @ADVL> #2->3
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<nannet>"
+	"nannet" V TV Inf @<SUBJ #4->3
+: 
+"<unnitlogugielaid>"
+	"unnitlogugiella" N Sem/Lang Pl Gen <cohort-with-dynamic-compound> @>N #5->6
+: 
+"<sajádaga>"
+	"sajádat" N Sem/Dummytag Sg Acc @-F<OBJ #6->4
+: 
+"<sihke>"
+	"sihke" Adv @>CC #7->9
+: 
+"<kulturskuvllain>"
+	"kulturskuvla" N Sem/Org Pl Loc <cohort-with-dynamic-compound> @-F<ADVL-ine #8->4
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<muđuige>"
+	"muđui" Adv Foc/Neg-ge @-F<ADVL-ine #10->4
+: 
+"<servodagas>"
+	"servodat" N Sem/Org Sg Loc @-F<ADVL-ine #11->4
+"<.>"
+	"." CLB #12->3
+: 
+"<Dálvvi>"
+	"dálvi" N Sem/Time Sg Gen @>N #1->2
+: 
+"<áigge>"
+	"áigi" N Sem/Time Sg Gen Allegro @ADVL> #2->3
+: 
+"<lágiduvvojit>"
+	"lágidit" Ex/V Ex/TV Gram/3syll Der/PassL <mv> V IV Ind Prs Pl3 @FMV #3->0
+: 
+"<báikkálaš>"
+	"báikkálaš" A Sem/Dummytag Attr @>N #4->5
+: 
+"<konsearttat>"
+	"konsearta" N Sem/Event Pl Nom @<SUBJ #5->3
+: 
+"<sihke>"
+	"sihke" Adv @>CC #6->8
+: 
+"<Romssas>"
+	"Romsa" N Prop Sem/Plc Sg Loc @<ADVL-ine #7->3
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<Finnmárkkus>"
+	"Finnmárku" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL-ine #9->3
+"<.>"
+	"." CLB #10->3
+: 
+"<Maŋimus>"
+	"maŋit" Ex/A Der/Superl A Attr @>N #1->3
+: 
+"<báikkálaš>"
+	"báikkálaš" A Sem/Dummytag Attr @>N #2->3
+: 
+"<konsearta>"
+	"konsearta" N Sem/Event Sg Nom @SUBJ> #3->4
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #4->0
+: 
+"<Kárášjogas>"
+	"Kárášjohka" N Prop Sem/Plc Sg Loc <cohort-with-dynamic-compound> @<ADVL-ine #5->4
+"<.>"
+	"." CLB #6->4
+: 
+"<Miessemánus>"
+	"miessemánnu" N Sem/Time Sg Loc <cohort-with-dynamic-compound> @ADVL-ine> #1->2
+: 
+"<lágiduvvo>"
+	"lágidit" Ex/V Ex/TV Gram/3syll Der/PassL <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<stuorra>"
+	"stuoris" A Sem/Hum Attr @>N #3->5
+: 
+"<oktasaš>"
+	"oktasaš" A Sem/Dummytag Attr @>N #4->5
+: 
+"<konsearta>"
+	"konsearta" N Sem/Event Sg Nom @<SUBJ #5->2
+: 
+"<Leavnnjas>"
+	"Leavdnja" N Prop Sem/Plc Sg Loc @<ADVL-ine #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Kárášjoga>"
+	"Kárášjohka" N Prop Sem/Plc Sg Gen <cohort-with-dynamic-compound> @>N #1->2
+: 
+"<kulturskuvla>"
+	"kulturskuvla" N Sem/Org Sg Nom <cohort-with-dynamic-compound> @SUBJ> #2->3
+: 
+"<lea>"
+	"leat" <aux> V IV Ind Prs Sg3 @FAUX #3->0
+: 
+"<bovden>"
+	"bovdet" <mv> V TV PrfPrc @IMV #4->3
+: 
+"<Gáregasnjárgga>"
+	"Gáregasnjárga" N Prop Sem/Plc Sg Gen <cohort-with-dynamic-compound> @>N #5->6
+: 
+"<nuoraid>"
+	"nuorra" N Sem/Hum Pl Acc @-FSUBJ> #6->7
+: 
+"<searvat>"
+	"searvat" V IV Inf @ICL-OBJ #7->4
+: 
+"<konsertii>"
+	"konsearta" N Sem/Event Sg Ill @<ADVL #8->4
+"<.>"
+	"." CLB #9->3
+:   
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Bures boahtin>"
+	"bures boahtin" Interj @INTERJ #1->0
+"<!>"
+	"!" CLB #2->1
+: 
+"<Tervettulemaa>"
+	"Tervettulemaa" ? @X #1->0
+"<!>"
+	"!" CLB #2->2
+: 
+"<Tervetuloa>"
+	"Tervetuloa" ? @X #1->0
+"<!>"
+	"!" CLB #2->2
+: 
+"<Velkommen>"
+	"Velkommen" ? @X #1->0
+"<!>"
+	"!" CLB #2->2
+:   
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>
