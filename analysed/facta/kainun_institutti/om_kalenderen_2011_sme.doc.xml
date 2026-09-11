@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sme" id="no_id"><header><title>Kalenterista/ Kaleanddara birra/ Om kalenderen</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><wordcount>185</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="lene.antonsen@uit.no"/><multilingual><language xml:lang="fkv"/><language xml:lang="sme"/><language xml:lang="nob"/></multilingual><parallel_text xml:lang="fkv" location="om_kalenderen_2011.doc"/><parallel_text xml:lang="nob" location="om_kalenderen_2011_nob.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<'>"
+	"'" PUNCT #1->2
+"<Pohjaisen>"
+	"Pohjaisen" ? @X #2->0
+: 
+"<ihmissii>"
+	"ihmissii" ? @X #3->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #4->5
+: 
+"<Olbmot>"
+	"olmmoš" N Sem/Hum Pl Nom @SUBJ> #5->0
+: 
+"<davvin>"
+	"davvin" Adv Sem/Plc @ADVL> #6->19
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<Mennesker>"
+	"Mennesker" ? @X #8->0
+: 
+"<i>"
+	"I" Num Rom Sg Nom @SUBJ> #9->12
+	"i" N Sem/Sign ABBR Gram/TAbbr Sg Gen @ADVL> #9->12
+	"i" N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #9->12
+: 
+"<nord>"
+	"nord" ? @X #10->0
+"<'>"
+	"'" PUNCT #11->12
+: 
+"<lea>"
+	"leat" <mv> V IV Ind Prs Sg3 @FMV #12->0
+: 
+"<kaleandar>"
+	"kaleandar" N Sem/Semcon_Txt Sg Nom @<SPRED #13->12
+"<,>"
+	"," CLB #14->15
+: 
+"<maid>"
+	"mii" Pron Rel Sg Acc @OBJ> #15->19
+: 
+"<Mearrasámi>"
+	"mearrasápmi" N Sem/Hum_Lang Sg Gen <cohort-with-dynamic-compound> @>N #16->17
+: 
+"<diehtoguovddáš>"
+	"diehtoguovddáš" N Sem/Plc Sg Nom <cohort-with-dynamic-compound> <cohort-with-dynamic-compound> @SUBJ> #17->18
+: 
+"<lea>"
+	"leat" <aux> V IV Ind Prs Sg3 @FS-N< #18->13
+: 
+"<ráhkadan>"
+	"ráhkadit" <mv> V TV Gram/3syll PrfPrc @FS-N<IMV #19->18
+: 
+"<ovttas>"
+	"ovttas" Adv @<ADVL-ine #20->19
+: 
+"<Kveana>"
+	"kveana" N Sem/Hum Sg Acc @<OBJ #21->19
+: 
+"<instituhtain>"
+	"instituhtta" N Sem/Org Pl Loc @<ADVL-ine #22->19
+"<.>"
+	"." CLB #23->5
+: 
+"<Kaleandar>"
+	"kaleandar" N Sem/Semcon_Txt Sg Nom @SUBJ> #1->2
+: 
+"<muitala>"
+	"muitalit" <mv> V TV Gram/3syll Ind Prs Sg3 @FMV #2->0
+: 
+"<olbmuid>"
+	"olmmoš" N Sem/Hum Pl Acc @<OBJ #3->2
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<sin>"
+	"son" Pron Pers Pl3 Gen @>N #5->6
+: 
+"<eallima>"
+	"eallin" N Sem/Act Sg Gen @>P #6->7
+: 
+"<birra>"
+	"birra" Po @<ADVL-ela #7->2
+: 
+"<davvin>"
+	"davvin" Adv Sem/Plc @<ADVL-ela #8->2
+"<.>"
+	"." CLB #9->2
+: 
+"<Kaleanddara>"
+	"Kaleanddara" ? @X #1->0
+: 
+"<govat>"
+	"govva" N Sem/Prod-vis Pl Nom @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<teavsttat>"
+	"teaksta" N Sem/Txt Pl Nom @SUBJ> #4->2
+: 
+"<čalmmustahttet>"
+	"čalmmustahttit" <mv> V TV Ind Prs Pl3 @FMV #5->0
+: 
+"<olbmuid>"
+	"olmmoš" N Sem/Hum Pl Gen @>N #6->7
+: 
+"<árgabeaivvi>"
+	"árgabeaivi" N Sem/Time Sg Gen <cohort-with-dynamic-compound> @<ADVL #7->5
+"<,>"
+	"," CLB #8->7
+: 
+"<bargguid>"
+	"bargu" N Sem/Act_Plc Pl Gen @>N #9->11
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<birgejumi>"
+	"birgejupmi" N Sem/Dummytag Sg Acc @<OBJ #11->5
+"<.>"
+	"." CLB #12->5
+: 
+"<Máŋggat>"
+	"máŋga" Pron Indef Pl Nom @>N #1->2
+: 
+"<gielat>"
+	"giella" N Sem/Lang_Tool Pl Nom @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<kultuvrrat>"
+	"kultuvra" N Sem/Domain Pl Nom @SUBJ> #4->2
+: 
+"<leat>"
+	"leat" <aux> V IV Ind Prs Pl3 @FAUX #5->0
+: 
+"<leamašan>"
+	"leat" <mv> V IV PrfPrc @IMV #6->5
+: 
+"<lunddolaš>"
+	"lunddolaš" A Sem/Hum Sg Nom @X #7->0
+: 
+"<oassin>"
+	"oassi" N Sem/Part Ess @<SPRED #8->6
+: 
+"<eallimis>"
+	"eallin" N Sem/Act Sg Loc @N< #9->8
+: 
+"<sihke>"
+	"sihke" Adv @>CC #10->12
+: 
+"<siseatnamis>"
+	"siseana" N Sem/Plc Sg Loc @<ADVL-ine #11->6
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<riddoguovlluin>"
+	"riddoguovlu" N Sem/Plc Pl Loc <cohort-with-dynamic-compound> @<ADVL-ine #13->6
+"<.>"
+	"." CLB #14->5
+: 
+"<Nuba>"
+	"nu" Adv Foc/ba @>ADVL #1->2
+: 
+"<maiddái>"
+	"maiddái" Adv @ADVL-ine> #2->5
+: 
+"<dán>"
+	"dát" Pron Dem Sg Gen @X #3->0
+: 
+"<kaleanddaris>"
+	"kaleanddaris" ? @X #4->0
+: 
+"<leat>"
+	"leat" <mv> V IV Ind Prs Pl3 @FMV #5->0
+: 
+"<sihke>"
+	"sihke" Adv @>CC #6->10
+: 
+"<sáme->"
+	"sápmi" N Sem/Hum_Lang Cmp/SgGen Cmp/SplitR Cmp @>N #7->9
+"<,>"
+	"," CLB #8->7
+: 
+"<kveana->"
+	"kveana" N Sem/Hum Cmp/SgNom Cmp/SplitR Cmp @>N #9->12
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<dárogielat>"
+	"dárogielat" A Sem/Hum Attr @>N #11->7
+: 
+"<teavsttat>"
+	"teaksta" N Sem/Txt Pl Nom <ext> @<SUBJ #12->5
+"<.>"
+	"." CLB #13->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>
